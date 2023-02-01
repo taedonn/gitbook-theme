@@ -2,6 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
+permalink: /
 ---
 
 # 아카이빙 목적으로 만든 코딩 공간입니다!
