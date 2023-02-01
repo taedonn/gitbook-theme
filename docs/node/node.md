@@ -1,6 +1,6 @@
 ---
 layout: default
-title: node
+title: Node.js
 nav_order: 4
 has_children: true
 permalink: /docs/node
