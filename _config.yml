@@ -1,6 +1,6 @@
 # default settings
 remote_theme : just-the-docs/just-the-docs
-title: 코딩 공간
+title: DEVBOT(데브봇)
 description: 
 baseurl: "/blog"
 url: "https://xxdevbosa.github.io"
