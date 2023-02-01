@@ -5,4 +5,4 @@ nav_order: 2
 permalink: /docs
 ---
 
-# JSX란??
+# JSX란?

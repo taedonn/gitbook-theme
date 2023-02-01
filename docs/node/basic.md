@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Node.js의 기본개념
-parent: node
+parent: Node.js
 nav_order: 1
 ---
 

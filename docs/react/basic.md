@@ -1,7 +1,7 @@
 ---
 layout: default
 title: React의 기본개념
-parent: react
+parent: React
 nav_order: 1
 ---
 
