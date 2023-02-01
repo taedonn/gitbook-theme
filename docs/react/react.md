@@ -6,4 +6,4 @@ has_children: true
 permalink: /docs/react
 ---
 
-# React의 기본
+# React란?

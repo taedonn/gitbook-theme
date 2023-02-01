@@ -5,4 +5,4 @@ parent: react
 nav_order: 1
 ---
 
-# React 시작하기
+# React의 기본개념
