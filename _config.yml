@@ -7,7 +7,7 @@ url: "https://xxdevbosa.github.io"
 permalink: pretty
 
 # favicon settings
-favicon_ico: "/img/favicon.png"
+favicon_ico: "/assets/images/favicon.png"
 
 exclude:
  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
