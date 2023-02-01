@@ -1,10 +1,8 @@
 ---
 layout: default
-title: home
+title: 
 permalink: 
-nav_exclude: true
-search_exclude: true
 ---
 
-<h1>Welcome!</h1>
+<h1>코딩 공간</h1>
 <p>Hello</p>

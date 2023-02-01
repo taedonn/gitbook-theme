@@ -1,11 +1,13 @@
-# default Settings
+# default settings
 remote_theme : just-the-docs/just-the-docs
 title: 코딩 공간
 description: 
 baseurl: "/blog"
 url: "https://xxdevbosa.github.io"
-
 permalink: pretty
+
+# favicon settings
+favicon_ico: "/img/favicon.png"
 
 exclude:
  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
