@@ -1,10 +1,10 @@
 ---
 layout: default
-title: React
+title: node
 nav_order: 2
 has_children: true
-permalink: /docs/react
+permalink: /docs/node
 has_toc: false
 ---
 
-# React란?
+# Node.js란?

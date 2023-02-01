@@ -1,11 +1,11 @@
 ---
 layout: default
-title: React의 기본개념
-parent: react
+title: Node.js의 기본개념
+parent: node
 nav_order: 1
 ---
 
-# React의 기본개념!
+# Node.js의 기본개념!
 {: .no_toc }
 
 ## Table of contents
