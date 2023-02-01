@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 404
-permalink: /404
+title: home
+permalink: /home
 nav_exclude: true
 search_exclude: true
 ---
 
-<h1>Page found</h1>
-<p>WELCOME!</p>
+<h1></h1>
+<p></p>
