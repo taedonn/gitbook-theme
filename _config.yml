@@ -1,8 +1,8 @@
 # default Settings
 title: xxDevBosa
 description: A coding blog of xxDevBosa
-url: "https://www.xxdevbosa.com"
-# baseurl: 
+url: "https://xxdevbosa.github.io"
+baseurl: "/blog"
 permalink: pretty
 
 # theme Setting
