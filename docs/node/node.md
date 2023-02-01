@@ -6,4 +6,4 @@ has_children: true
 permalink: /docs/node
 ---
 
-# Node.js란?
+# Node.js
