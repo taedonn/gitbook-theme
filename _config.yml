@@ -1,12 +1,12 @@
 # default Settings
-title: Just the Docs
-description: A Jekyll theme for documentation
-baseurl: ""
+title: xxDevBosa
+description: A coding blog of xxDevBosa
 url: "https://xxdevbosa.com"
+baseurl: ""
+permalink: pretty
 
 # theme Setting
 remote_theme : just-the-docs/just-the-docs
-permalink: pretty
 
 exclude:
  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
