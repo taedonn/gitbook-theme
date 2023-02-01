@@ -6,6 +6,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-<h1>Page not found</h1>
+<h1>Page found</h1>
 
 <p>WELCOME!</p>
