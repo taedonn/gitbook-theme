@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 
-permalink: 
+title: Home
+nav_order: 1
 ---
 
 <h1>코딩 공간</h1>
