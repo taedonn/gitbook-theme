@@ -1,6 +1,6 @@
 # default settings
 remote_theme : just-the-docs/just-the-docs
-title: DEVBOT(데브봇)
+title: DEVBOT
 description: 
 baseurl: "/blog"
 url: "https://xxdevbosa.github.io"
