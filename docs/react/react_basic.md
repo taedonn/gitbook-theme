@@ -1,8 +1,8 @@
 ---
 layout: default
-title: React_start
-nav_order: 1
+title: React 기본개념
 parent: react
+nav_order: 1
 ---
 
 # React 시작하기
