@@ -1,7 +1,7 @@
 ---
 layout: default
 title: home
-permalink: /home
+permalink: 
 nav_exclude: true
 search_exclude: true
 ---
