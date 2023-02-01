@@ -1,3 +1,3 @@
 # blog
 
-[https://xxdevbosa.com](https://xxdevbosa.com)
+[https://xxdevbosa.github.io/blog](https://xxdevbosa.github.io/blog)

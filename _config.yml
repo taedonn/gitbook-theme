@@ -1,11 +1,10 @@
 # default Settings
+remote_theme : just-the-docs/just-the-docs
 title: xxDevBosa
 description: A coding blog of xxDevBosa
 baseurl: "/blog"
 url: "https://xxdevbosa.github.io"
 
-# theme Setting
-remote_theme : just-the-docs/just-the-docs
 permalink: pretty
 
 exclude:
