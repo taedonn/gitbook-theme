@@ -1,10 +1,9 @@
 ---
 layout: default
 title: React
-nav_order: 2
+nav_order: 3
 has_children: true
 permalink: /docs/react
-has_toc: false
 ---
 
 # React란?
