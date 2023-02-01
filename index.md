@@ -7,5 +7,4 @@ search_exclude: true
 ---
 
 <h1>Page found</h1>
-
 <p>WELCOME!</p>
