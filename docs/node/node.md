@@ -8,12 +8,6 @@ permalink: /docs/node
 
 ![title_node](../../assets/images/title_node.png)
 
-## Table of contents
-{: .no_toc .text-delta }
-
-- TOC
-{:toc}
-
 <script src="https://utteranc.es/client.js"
         repo="xxdevbosa/blog"
         issue-term="pathname"
@@ -22,5 +16,3 @@ permalink: /docs/node
         crossorigin="anonymous"
         async>
 </script>
-
----
