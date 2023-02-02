@@ -59,3 +59,14 @@ function App() {
 | `for`          | `htmlFor`            | 
 | `checked`      | `defaultChecked`     | 
 
+&nbsp;
+
+### 2. 컴포넌트 내부의 DOM 트리 구조는 반드시 하나의 부모 요소가 감싸는 형태여야 한다.
+React의 가상 돔(Virtual DOM)에서 컴포넌트(Component)의 변화를 효율적으로 비교할 수 있도록 컴포넌트 내부는 하나의 DOM 트리 구조로 이루어져야 한다는 규칙이 있다.
+
+에러 케이스
+{: .fs-6 }
+
+```
+
+```
