@@ -156,7 +156,7 @@ function App() {
     const loginYN;
     return (
         <div>
-            {loginYN == "Y" && <div>이태호 입니다.</div>}
+            { loginYN == "Y" && <div>이태호 입니다.</div> }
         </div>
     );
 }
@@ -171,9 +171,40 @@ function App() {
     return (
         <div>
             {(() => {
-                if(loginYN == "Y") {return (<div>Tae Lee 입니다.</div>)}
+                if (loginYN == "Y") {return (<div>Tae Lee 입니다.</div>)}
                 else { return (<div>비회원 입니다.</div>) }
             })()}
         </div>);
+}
+```
+
+### 4. JSX 내부에서 주석 사용 방법
+
+한줄일 때
+{: .fs-4 }
+
+```
+function App() {
+    return (
+        <>
+            {/* 주석 내용 여기 */}
+        </>
+    );
+}
+```
+
+두줄 이상일 때
+{: .fs-4 }
+
+```
+function App() {
+    return (
+        <>
+            {
+                // 주석 내용 여기
+                // 주석 내용 여기
+            }
+        </>
+    );
 }
 ```
