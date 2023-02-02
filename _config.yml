@@ -9,6 +9,14 @@ permalink: pretty
 # favicon settings
 favicon_ico: "/assets/images/favicon.png"
 
+# comments settings
+repository: "xxdevbosa/blog"
+comments: 
+  provider: "utterances"
+  utterances: 
+    theme: "github-light"
+    issue_term: "pathname"
+
 exclude:
  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
    - .sass-cache/

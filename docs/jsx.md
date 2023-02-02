@@ -218,3 +218,14 @@ function App() {
 {: .fs-8 }
 
 - [JSX란? (정의,장점,문법)](https://goddaehee.tistory.com/296)
+
+&nbsp;
+
+<script src="https://utteranc.es/client.js"
+        repo="xxdevbosa/blog"
+        issue-term="pathname"
+        label="blog"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
