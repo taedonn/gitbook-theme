@@ -8,7 +8,7 @@ permalink: /
 ![title_devbot](/assets/images/title_devbot.png)
 
 ### @xxDevBosa
-#프론트엔드 개발자 #ISTJ #게이머 #LOL
+#프론트엔드 개발자 #ISTJ #서울 #게이머 #LOL
 
 깃허브 : \
 [https://github.com/xxdevbosa](https://github.com/xxdevbosa)
