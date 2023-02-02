@@ -56,8 +56,10 @@ function App() {
 &nbsp;
 
 ### 2. 코드 네이밍이 HTML 코드 네이밍과 완전히 다른 경우
-| HTML             | JSX                  |
-|:-----------------|:---------------------|
-| `class`          | `className`          |
-| `checked`        | `defaultChecked`     |
-| `for`            | `htmlFor`            |
+
+| HTML           | JSX                  | 
+|:---------------|:---------------------| 
+| `class`        | `className`          | 
+| `checked`      | `defaultChecked`     | 
+| `for`          | `htmlFor`            | 
+
