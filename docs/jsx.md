@@ -114,3 +114,66 @@ function App() {
 
 ### 4. if문(for문) 대신 삼항 연산자(조건부 연산자)를 사용합니다.
 if문과 for문은 자바스크립트 표현식이 아니기 때문에, JSX 내부 자바스크립트 표현식에서 사용할 수 없습니다. if문과 for문이 자바스크립트 표현식이 아닌 이유는, **표현식은 그 자체로 값을 가지거나, 어떤 것에 값을 할당하는 것**이어야 되는데, 예를 들어, '변수가 3보다 클 때 특정 함수를 실행'이라는 if문을 선언했을 때, '변수가 3보다 크다'는 것 자체가 어떤 값이 될 수 없기 때문에, if문과 for문은 자바스크립트 표현식이 아닙니다.
+
+JSX 외부에서 사용
+{: .fs-4 }
+
+```
+function App() {
+    let name = "";
+    const loginYN;
+    if (loginYN == "Y") { intro = <div>Tae Lee 입니다.</div> }
+    else { intro = <div>비회원 입니다.</div> }
+    return (
+        <div>{intro}</div>  
+    );
+}
+```
+
+JSX 내부에서 사용
+{: .fs-4 }
+
+```
+function App() {
+    const loginYN;
+    return (
+        <div>
+            { loginYN == "Y" ? 
+            ( <div>Tae Lee 입니다.</div> ) : 
+            ( <div>비회원 입니다.</div> )}
+        </div>
+    );
+}
+```
+
+연산자 사용
+{: .fs-4 }
+
+```
+// 조건이 만족되지 않을 경우 아무것도 노출되지 않는다.
+
+function App() {
+    const loginYN;
+    return (
+        <div>
+            {loginYN == "Y" && <div>이태호 입니다.</div>}
+        </div>
+    );
+}
+```
+
+즉시실행함수 사용
+{: .fs-4 }
+
+```
+function App() {
+    const loginYN;
+    return (
+        <div>
+            {(() => {
+                if(loginYN == "Y") {return (<div>Tae Lee 입니다.</div>)}
+                else { return (<div>비회원 입니다.</div>) }
+            })()}
+        </div>);
+}
+```
