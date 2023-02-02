@@ -48,7 +48,7 @@ function App() {
 // 스타일을 HTML 코드 내부에 사용할 때
 function App() {
     return (
-        <div style={{backgroundColor:"green", fontSize:"12px"}}>Hello, Bosa</div>
+        <div style={backgroundColor,"green"}>Hello, Bosa</div>
     );
 }
 ```
