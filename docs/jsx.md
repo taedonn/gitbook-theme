@@ -56,6 +56,6 @@ function App() {
 | HTML           | JSX                  | 
 |:---------------|:---------------------| 
 | `class`        | `className`          | 
-| `checked`      | `defaultChecked`     | 
 | `for`          | `htmlFor`            | 
+| `checked`      | `defaultChecked`     | 
 
