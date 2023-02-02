@@ -7,4 +7,4 @@ permalink: /docs/node
 ---
 
 # Node.js
-![title_node](/assets/images/title_node.png)
+![title_node](../../assets/images/title_node.png)
