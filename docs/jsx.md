@@ -178,6 +178,8 @@ function App() {
 }
 ```
 
+&nbsp;
+
 ### 4. JSX 내부에서 주석 사용 방법
 
 한줄일 때
@@ -208,3 +210,8 @@ function App() {
     );
 }
 ```
+
+&nbsp;
+
+### Reference
+[JSX란? (정의,장점,문법)](https://goddaehee.tistory.com/296)
