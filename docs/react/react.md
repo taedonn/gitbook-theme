@@ -7,3 +7,4 @@ permalink: /docs/react
 ---
 
 # React
+![title_react](/assets/images/title_react.png)
