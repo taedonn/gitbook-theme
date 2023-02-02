@@ -2,8 +2,8 @@
 remote_theme : just-the-docs/just-the-docs
 title: DEVBOT
 description: 
-# baseurl: "/blog"
-url: "https://xxdevbosa.com"
+baseurl: "/blog"
+url: "https://xxdevbosa.github.io"
 permalink: pretty
 
 # favicon settings
