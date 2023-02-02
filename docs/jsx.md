@@ -14,4 +14,4 @@ nav_order: 2
 ---
 
 ## JSX란?
-JSX(JavaScript XML)는 JavaScript에 XML을 추가해 확장한 문법으로, React 프로젝트를 개발할 때 사용하기 위해 개발되었으며, React와 마찬가지로 공식적인 자바스크립트 문법은 아닙니다.
+**JSX(JavaScript XML)**는 React의 목적인 모든 HTML 코드를 하나의 JS파일에 넣어서 컴포넌트화시키는 것을 실현하기 위해 개발된 문법이다. JSX는 HTML 코드를 XML을 코딩하는 것처럼 JS 파일에 넣을 수 있게 만들어 별도의 HTML 파일을 호출할 필요 없이 **컴포넌트의 독립성**을 유지시키기 위해 만들어진 문법이다.
