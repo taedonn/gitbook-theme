@@ -5,13 +5,12 @@ nav_order: 1
 permalink: /
 ---
 
-# 아카이빙 목적으로 만든 코딩 공간입니다!
 ![title_devbot](/assets/images/title_devbot.png)
 
 ### @xxDevBosa
-#프론트엔드 개발자 #ISTJ #게이머 #LOL #맛집
+#프론트엔드 개발자 #ISTJ #게이머 #LOL
 
-프로필 : \
+깃허브 : \
 [https://github.com/xxdevbosa](https://github.com/xxdevbosa)
 
 이력서 : \
