@@ -5,7 +5,7 @@ parent: React
 nav_order: 1
 ---
 
-# React의 기본개념!
+# 1. React의 특징
 {: .no_toc }
 
 ## Table of contents
