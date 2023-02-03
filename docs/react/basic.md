@@ -48,3 +48,14 @@ nav_order: 1
 리액트를 개발한 페이스북은 2022년 기준 29억명의 활성 이용자를 보유하고 있는 거대 플랫폼으로, 수억명의 유저들의 데이터가 생성되고, 수정되고, 삭제됩니다. 이러한 막대한 양의 데이터를 더 쉽게 관리하기 위해 `Data`와 `View`를 분리해서 **View만을 관리하는 라이브러리**인 리액트를 개발하게 된 것입니다.
 
 리액트의 개발로 뷰와 데이터의 분리가 가능해지기 이전에도, 백엔드에서는 자체적으로 데이터를 개선하여 개발 효율성을 높일 수 있었지만, 프론트엔드같은 경우 자체적으로 효율성을 개선하기 어렵기 때문에 리액트의 개발은 어쩌면 필연적이었을수도 있습니다.
+
+&nbsp;
+
+<script src="https://utteranc.es/client.js"
+        repo="xxdevbosa/blog"
+        issue-term="pathname"
+        label="blog"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
