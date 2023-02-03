@@ -30,6 +30,8 @@ nav_order: 1
 ### React는 프레임워크가 아니라 자바스크립트 라이브러리입니다.
 리액트는 클라이언트(프론트엔드)에서 사용하는 라이브러리로, 프레임워크인 `Vue`나 `Angular`와 다르게 MVC(Model, View, Controller) 패턴 중에 `View`만을 관리합니다. 왜 `View`만을 관리하는 라이브러리를 만들었을까? 이를 이해하기 위해 MVC패턴에 대해 먼저 알아야 합니다.
 
+&nbsp;
+
 ### MVC(Model, View, Controller) 패턴
 웹/앱을 모델(Model), 뷰(View), 컨트롤러(Controller) 3개의 영역으로 분할하고 각 구성 요소에게 고유한 역할을 부여하는 개발 방식입니다.
 
