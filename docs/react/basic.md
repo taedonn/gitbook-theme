@@ -28,5 +28,6 @@ nav_order: 1
 &nbsp;
 
 ## React는 프레임워크가 아니라 자바스크립트 라이브러리입니다.
+{: .fs-8 }
 
 리액트는 클라이언트(프론트엔드)에서 사용하는 라이브러리로, 프레임워크인 `Vue`나 `Angular`와 다르게 MVC(Model, View, Controller)중에 `View`만을 관리합니다.
