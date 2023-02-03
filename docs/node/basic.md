@@ -5,7 +5,7 @@ parent: Node.js
 nav_order: 1
 ---
 
-# Node.js의 기본개념!
+# 1. Node.js의 특징
 {: .no_toc }
 
 ## Table of contents
