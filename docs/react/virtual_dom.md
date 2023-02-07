@@ -21,7 +21,7 @@ nav_order: 3
 
 리액트는 실제 브라우저 문서 구조가 아닌 `가상 돔`이라고 하는 가상의 문서 구조를 만들어 브라우저에 렌더링합니다. 
 
-![virtual_dom_1](../../assets/images/virtual_dom_1.jpg)
+![virtual_dom_1](../../assets/images/virtual_dom_1.png)
 
 리액트에서 `가상 돔`을 사용하는 이유는, `상태(State)`가 변했을 때 브라우저 전체가 아닌 기존의 DOM과 비교해서 달라진 부분만 변경한다.
 
