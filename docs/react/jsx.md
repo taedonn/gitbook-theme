@@ -5,7 +5,7 @@ parent: React
 nav_order: 1
 ---
 
-# JSX(JavaScript XML)
+# 1. JSX(JavaScript XML)
 {: .no_toc }
 
 ## Table of contents
