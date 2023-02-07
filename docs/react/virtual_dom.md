@@ -26,8 +26,8 @@ nav_order: 3
 ### 가상 돔을 사용하는 이유는 무엇일까요?
 {: .fs-6 }
 
-![virtual_dom_1](../../assets/images/virtual_dom_1.png)
-
 리액트에서 `가상 DOM`을 사용하는 이유는, `상태(State)`가 변했을 때 브라우저 전체가 아닌 기존의 DOM과 비교해서 달라진 부분만 변경합니다.
+
+![virtual_dom_1](../../assets/images/virtual_dom_1.png)
 
 이러한 방식은 이전 UI 상태를 메모리에 유지한 체, 변경될 UI의 최소집합을 계산하여 필요한 부분만 교체하여 **불필요한 업데이트를 줄이고, 렌더링 속도를 올려줍니다.**{: .text-purple-000 }
