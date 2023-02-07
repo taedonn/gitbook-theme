@@ -225,7 +225,7 @@ function App() {
 
 &nbsp;
 
-### Reference
+## Reference
 {: .fs-8 }
 
 - [JSX란? (정의,장점,문법)](https://goddaehee.tistory.com/296)

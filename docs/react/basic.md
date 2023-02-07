@@ -90,7 +90,7 @@ MVC 패턴은 매우 효율적인 방식이지만, 규모가 커질수록 컨트
 
 &nbsp;
 
-### Reference
+## Reference
 {: .fs-8 }
 
 - [[React] React 기본 개념](https://velog.io/@kim-jaemin420/React-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90)
