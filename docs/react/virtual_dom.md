@@ -74,11 +74,30 @@ DOM이란 **D**{: .text-purple-000 }ocument **O**{: .text-purple-000 }bject **M*
 
 &nbsp;
 
-### DOM VS Virtual DOM
-{: .fs-6 }
+## DOM VS Virtual DOM
+{: .fs-8 }
 
 |             | `DOM`                 | `Virtual DOM`          |
 |:------------|:----------------------|:-----------------------|
 | 업데이트 방식  | 전체 업데이트             | 부분 업데이트             |
 | 렌더링 속도    | 비교적 느리다             | 비교적 빠르다            |
 | 메모리 누수    | 비교적 심하다             | 비교적 덜하다            |
+
+&nbsp;
+
+## Reference
+{: .fs-8 }
+
+- [[React] 가상 돔(Virtual DOM) 이해하기](https://devbirdfeet.tistory.com/219)
+- [[React] DOM의 개념](http://www.tcpschool.com/javascript/js_dom_concept)
+
+&nbsp;
+
+<script src="https://utteranc.es/client.js"
+        repo="xxdevbosa/blog"
+        issue-term="pathname"
+        label="blog"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
