@@ -21,7 +21,7 @@ nav_order: 3
 
 DOM이란 **D**ocument **O**bject **M**odel (문서 객체 모델)의 약자입니다. 문서 객체 모델은 브라우저에서 `HTML 태그`를 `객체(Object)`로 만들어 프로그래밍 언어가 DOM 구조에 접근하는 것을 돕는 역할을 합니다.
 
-![virtual_dom_2](../../assets/images/virtual_dom_1.png)
+![virtual_dom_1](../../assets/images/virtual_dom_1.png)
 
 &nbsp;
 
@@ -37,7 +37,7 @@ DOM이란 **D**ocument **O**bject **M**odel (문서 객체 모델)의 약자입�
 
 리액트에서 `가상 DOM`을 사용하는 이유는, `상태(State)`가 변했을 때 브라우저 전체가 아닌 기존의 DOM과 비교해서 달라진 부분만 변경하기 때문입니다.
 
-![virtual_dom_2](../../assets/images/virtual_dom_1.png)
+![virtual_dom_2](../../assets/images/virtual_dom_2.png)
 
 이러한 방식은 이전 UI 상태를 메모리에 유지한 체, 변경될 UI의 최소집합을 계산하여 필요한 부분만 교체하여 **불필요한 업데이트를 줄이고, 렌더링 속도를 올려줍니다.**{: .text-purple-000 }
 
