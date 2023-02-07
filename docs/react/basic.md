@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 1. React의 특징
+title: 2. React의 특징
 parent: React
-nav_order: 1
+nav_order: 2
 ---
 
 # 1. React의 특징

@@ -1,7 +1,8 @@
 ---
 layout: default
-title: JSX(JavaScript XML)
-nav_order: 2
+title: 1. JSX(JavaScript XML)
+parent: React
+nav_order: 1
 ---
 
 # JSX(JavaScript XML)
