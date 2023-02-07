@@ -90,6 +90,16 @@ MVC 패턴은 매우 효율적인 방식이지만, 규모가 커질수록 컨트
 
 &nbsp;
 
+## Reference
+{: .fs-8 }
+
+- [[React] React 기본 개념](https://velog.io/@kim-jaemin420/React-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90)
+- [[React] 리액트를 처음부터 배워보자. - 01.React.js란 무엇인가?](https://medium.com/crossplatformkorea/react-%EB%A6%AC%EC%95%A1%ED%8A%B8%EB%A5%BC-%EC%B2%98%EC%9D%8C%EB%B6%80%ED%84%B0-%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90-01-react-js%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-ad8ba252ee28)
+- [[React] 페이스북은 왜 리액트를 만들었을까](https://velog.io/@sunaaank/why-facebook-makes-react)
+- [[React] 안녕, 리액트(Hello, React)](https://blog.gaerae.com/2016/04/hello-react.html)
+
+&nbsp;
+
 <script src="https://utteranc.es/client.js"
         repo="xxdevbosa/blog"
         issue-term="pathname"
