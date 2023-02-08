@@ -6,4 +6,4 @@ has_children: true
 permalink: /docs/frontend
 ---
 
-![title_react](../../assets/images/frontend_1.png)
+![title_react](../../assets/images/frontend_1.jpg)
