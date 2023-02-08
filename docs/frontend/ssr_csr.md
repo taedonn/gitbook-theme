@@ -19,7 +19,7 @@ nav_order: 1
 ## SSR(Server Side Rendering)
 {: .fs-8 }
 
-**S**{: .text-purple-000 }erver **S**{: .text-purple-000 }ide **R**{: .text-purple-000 }endering의 약자로 서버쪽에서 렌더링 준비를 끝마친 상태로 클라이언트에 전달하는 방식입니다.
+**S**{: .text-purple-000 }erver **S**{: .text-purple-000 }ide **R**{: .text-purple-000 }endering의 약자로 **서버쪽에서 렌더링 준비를 끝마친 상태로 클라이언트에 전달하는 방식**{: .text-purple-000 }입니다.
 
 ![ssr_csr_1](../../assets/images/ssr_csr_1.png)
 
@@ -40,7 +40,7 @@ nav_order: 1
 ## CSR(Client Side Rendering)
 {: .fs-8 }
 
-**C**{: .text-purple-000 }lient **S**{: .text-purple-000 }ide **R**{: .text-purple-000 }endering의 약자로 SSR과 달리 클라이언트 쪽에서 렌더링을 하는 방식입니다. 서버는 요청을 받게 되면 클라이언트에 HTML과 JS 파일을 보내고, 클라이언트는 그것을 받아 렌더링을 시작합니다.
+**C**{: .text-purple-000 }lient **S**{: .text-purple-000 }ide **R**{: .text-purple-000 }endering의 약자로 SSR과 달리 **클라이언트 쪽에서 렌더링을 하는 방식**{: .text-purple-000 }입니다. 서버는 요청을 받게 되면 클라이언트에 HTML과 JS 파일을 보내고, 클라이언트는 그것을 받아 렌더링을 시작합니다.
 
 ![ssr_csr_2](../../assets/images/ssr_csr_2.png)
 
