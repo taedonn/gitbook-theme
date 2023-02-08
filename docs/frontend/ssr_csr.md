@@ -1,0 +1,59 @@
+---
+layout: default
+title: 1. SSR & CSR
+parent: frontend
+nav_order: 1
+---
+
+# 1. SSR & CSR
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
+
+---
+
+## SSR(Server Side Rendering)
+{: .fs-8 }
+
+**S**{: .text-purple-000 }erver **S**{: .text-purple-000 }ide **R**{: .text-purple-000 }endering의 약자로 서버쪽에서 렌더링 준비를 끝마친 상태로 클라이언트에 전달하는 방식입니다.
+
+![ssr_csr_1](../../assets/images/ssr_csr_1.jpg)
+
+&nbsp;
+
+### SSR의 단계별 설명
+{: .fs-6 }
+
+1. User가 Website에 요청을 보냅니다.
+2. Server는 문자열로 표현된, 즉시 렌더링 가능한 HTML 파일을 만듭니다.
+3. 클라이언트에 전달되는 순간, HTML은 즉시 렌더링 됩니다.
+4. 클라이언트가 자바스크립트를 다운 받습니다. 자바스크립트를 다운 받는 중 로딩된 컨텐츠를 볼 수는 있지만, 조작할 수는 없는 단계입니다.
+5. 다운로드가 완료되면, 브라우저가 자바스크립트 프레임워크를 실행합니다.
+6. 자바스크립트까지 실행이 완료되었기 때문에, 이제 웹사이트는 상호작용이 가능한 상태가 됩니다.
+
+&nbsp;
+
+## CSR(Client Side Rendering)
+{: .fs-8 }
+
+**C**{: .text-purple-000 }lient **S**{: .text-purple-000 }ide **R**{: .text-purple-000 }endering의 약자로 SSR과 달리 클라이언트 쪽에서 렌더링을 하는 방식입니다. 서버는 요청을 받게 되면 클라이언트에 HTML과 JS파일을 보내고, 클라이언트는 그것을 받아 렌더링을 시작합니다.
+
+&nbsp;
+
+### CSR의 단계별 설명
+{: .fs-6 }
+
+1. User가 Website에 요청을 보냅니다.
+2. `CDN`이 HTML파일과 JS파일로 접근할 수 있는 링크를 클라이언트로 보냅니다. 클라이언트가 HTML과 JS파일을 전부 다운받기 전까지, 유저는 웹사이트를 볼 수도, 조작할 수도 없습니다.
+3. 다운로드가 완료되면 브라우저가 HTML과 JS파일을 실행합니다.
+4. 자바스크립트까지 실행이 완료되었기 때문에, 이제 웹사이트는 상호작용이 가능한 상태가 됩니다.
+
+&nbsp;
+
+## CDN(Content Delivery Network)
+{: .fs-8 }
+
