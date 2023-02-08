@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 4. CSR & SSR
+title: 4. SSR & CSR
 parent: React
 nav_order: 4
 ---
 
-# 4. CSR & SSR
+# 4. SSR & CSR
 {: .no_toc }
 
 ## Table of contents
@@ -16,6 +16,6 @@ nav_order: 4
 
 ---
 
-## CSR(Client Side Rendering)
+## SSR(Server Side Rendering)
 {: .fs-8 }
 
