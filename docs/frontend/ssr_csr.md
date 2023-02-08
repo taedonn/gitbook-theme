@@ -79,6 +79,13 @@ SSR의 경우 필요한 부분의 HTML과 스크립트만 불러오는 반면, C
 
 &nbsp;
 
+### 검색엔진최적화(SEO) 대응
+{: .fs-6 }
+
+SEO는 **S**{: .text-purple-000 }earch **E**{: .text-purple-000 }ngine **O**{: .text-purple-000 }ptimization의 약자로 검색 엔진이 이해하기 쉽게 웹사이트를 개발해 검색 결과 상위권에 노출될 수 있도록 하는 작업을 뜻합니다. 검색 엔진은 자동화 로봇인 '크롤러'를 통해 웹사이트를 자동으로 읽습니다. CSR은 자바스크립트가 실행되야 크롤러가 읽을 수 있는 `metadata`를 반환하기 때문에, 크롤러의 데이터 수집이 상대적으로 적습니다.
+
+&nbsp;
+
 <script src="https://utteranc.es/client.js"
         repo="xxdevbosa/blog"
         issue-term="pathname"
