@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 1. SSR & CSR
-parent: frontend
+parent: Frontend
 nav_order: 1
 ---
 
