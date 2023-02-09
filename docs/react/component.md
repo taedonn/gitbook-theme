@@ -42,7 +42,7 @@ nav_order: 4
 {: .fs-8 }
 
 - [[React] React 기본 개념](https://velog.io/@kim-jaemin420/React-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90)
-- [[React] 리액트를 처음부터 배워보자. - 01.React.js란 무엇인가?](https://medium.com/crossplatformkorea/
+- [[React] 리액트를 처음부터 배워보자. - 01.React.js란 무엇인가?](https://medium.com/crossplatformkorea/)
 
 &nbsp;
 
