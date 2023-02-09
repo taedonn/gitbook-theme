@@ -75,7 +75,7 @@ DOM이란 **D**{: .text-purple-000 }ocument **O**{: .text-purple-000 }bject **M*
 &nbsp;
 
 ## DOM VS Virtual DOM
-{: .fs-8 }
+{: .fs-6 }
 
 |             | `DOM`                 | `Virtual DOM`          |
 |:------------|:----------------------|:-----------------------|
