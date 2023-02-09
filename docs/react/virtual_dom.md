@@ -2,7 +2,7 @@
 layout: default
 title: 가상 DOM(Virtual DOM)
 parent: React
-nav_order: 2
+nav_order: 3
 ---
 
 # 가상 DOM(Virtual DOM)

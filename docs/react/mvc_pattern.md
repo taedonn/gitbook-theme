@@ -1,11 +1,11 @@
 ---
 layout: default
-title: React의 특징
+title: MVC 패턴
 parent: React
-nav_order: 3
+nav_order: 2
 ---
 
-# React의 특징
+# MVC 패턴
 {: .no_toc }
 
 ## Table of contents
@@ -15,28 +15,6 @@ nav_order: 3
 {:toc}
 
 ---
-
-## React란?
-{: .fs-8 }
-
-리액트는 페이스북에서 만든 자바스크립트 기반의 라이브러리입니다. `컴포넌트`라고 하는 독립적인 UI 파편을 만들고, 만들어진 컴포넌트를 조합하여 하나의 View를 만드는 `선언형 프로그래밍` 방식을 채택하고 있다는게 리액트의 대표적인 특징 중 하나입니다.
-
-리액트 공식문서는 리액트를 다음과 같이 설명하고 있습니다.
-
-> 리액트는 사용자 인터페이스를 구축하기 위한(for building composable UI) 선언적이고 효율적이며 유연한 자바스크립트 라이브러리입니다. '컴포넌트'라고 불리는 작고 고립된 코드의 파편을 이용하여 복잡한 UI를 구성하도록 돕습니다.
-
-&nbsp;
-
-### 리액트는 컴포넌트를 사용합니다.
-{: .fs-6 }
-
-> 리액트에게 화면에 표현하고 싶은 게 무엇인지 우리는 컴포넌트를 통해 알려줍니다. 리액트는 데이터가 변경될 때 컴포넌트를 효율적으로 업데이트하고 다시 렌더링합니다.
-
-- 리액트를 사용하면 `컴포넌트`라는 재사용가능한 UI 파편을 통해 복잡한 앱을 효율적으로 만들 수 있습니다.
-
-- `컴포넌트`는 **재활용 가능한 UI 구성 단위**{: .text-purple-000 }입니다. UI가 재활용 가능하다는 것은 리액트의 큰 장점 중 하나이며, 서비스의 유지보수 측면에서 뛰어나고 페이지의 구성을 한눈에 파악할 수 있습니다.
-
-&nbsp;
 
 ### MVC(Model, View, Controller) 패턴
 {: .fs-6 }
@@ -93,8 +71,7 @@ MVC 패턴은 매우 효율적인 방식이지만, 규모가 커질수록 컨트
 ## Reference
 {: .fs-8 }
 
-- [[React] React 기본 개념](https://velog.io/@kim-jaemin420/React-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90)
-- [[React] 리액트를 처음부터 배워보자. - 01.React.js란 무엇인가?](https://medium.com/crossplatformkorea/react-%EB%A6%AC%EC%95%A1%ED%8A%B8%EB%A5%BC-%EC%B2%98%EC%9D%8C%EB%B6%80%ED%84%B0-%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90-01-react-js%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-ad8ba252ee28)
+react-%EB%A6%AC%EC%95%A1%ED%8A%B8%EB%A5%BC-%EC%B2%98%EC%9D%8C%EB%B6%80%ED%84%B0-%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90-01-react-js%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-ad8ba252ee28)
 - [[React] 페이스북은 왜 리액트를 만들었을까](https://velog.io/@sunaaank/why-facebook-makes-react)
 - [[React] 안녕, 리액트(Hello, React)](https://blog.gaerae.com/2016/04/hello-react.html)
 

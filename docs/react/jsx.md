@@ -1,11 +1,11 @@
 ---
 layout: default
-title: JSX(JavaScript XML)
+title: JSX
 parent: React
 nav_order: 1
 ---
 
-# JSX(JavaScript XML)
+# JSX
 {: .no_toc }
 
 ## Table of contents
@@ -16,7 +16,7 @@ nav_order: 1
 
 ---
 
-## JSX란?
+## JSX(JavaScript XML)란?
 {: .fs-8 }
 
 JSX는 React의 개발 목적인 **모든 HTML 코드를 하나의 JS파일에 넣어서 컴포넌트화**{: .text-purple-000 }시키는 것을 실현하기 위해 개발된 문법입니다. JSX는 React의 개발을 위해 개발된 문법이기 때문에, React와 마찬가지로 공식적인 자바스크립트 문법은 아닙니다.
