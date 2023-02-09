@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 가상 DOM(Virtual DOM)
+title: 가상 DOM
 parent: React
 nav_order: 3
 ---
 
-# 가상 DOM(Virtual DOM)
+# 가상 DOM
 {: .no_toc }
 
 ## Table of contents
