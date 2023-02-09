@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 2. React의 특징
+title: React의 특징
 parent: React
-nav_order: 2
+nav_order: 3
 ---
 
-# 2. React의 특징
+# React의 특징
 {: .no_toc }
 
 ## Table of contents

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 1. JSX(JavaScript XML)
+title: JSX(JavaScript XML)
 parent: React
 nav_order: 1
 ---
 
-# 1. JSX(JavaScript XML)
+# JSX(JavaScript XML)
 {: .no_toc }
 
 ## Table of contents

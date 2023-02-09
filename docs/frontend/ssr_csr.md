@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 1. SSR & CSR
+title: SSR & CSR
 parent: Frontend
 nav_order: 1
 ---
 
-# 1. SSR & CSR
+# SSR & CSR
 {: .no_toc }
 
 ## Table of contents
