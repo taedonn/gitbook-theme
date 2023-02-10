@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 3. 가상 DOM
-parent: 리액트
+parent: 리액트 입문하기
 nav_order: 3
 ---
 

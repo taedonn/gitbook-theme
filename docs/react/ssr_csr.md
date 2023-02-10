@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 4. SSR & CSR
-parent: 리액트
+parent: 리액트 입문하기
 nav_order: 4
 ---
 

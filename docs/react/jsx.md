@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2. JSX
-parent: 리액트
+parent: 리액트 입문하기
 nav_order: 2
 ---
 
