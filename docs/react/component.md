@@ -59,6 +59,16 @@ function App() {
 
 &nbsp;
 
+코드 상단의
+
+```js
+import myImg from './myImg';
+```
+
+이 코드는 myImg라는 이름의 컴포넌트를 불러오겠다는 뜻입니다. myImg라는 컴포넌트를 생성하지 않았을 경우 당연하겠지만 아무것도 뜨지 않습니다.
+
+&nbsp;
+
 **myImg.js :**{: .text-grey-dk-200 }
 
 App.js에 넣을 컴포넌트
@@ -74,6 +84,16 @@ function myImg(props) {
 
 export default myImg;
 ```
+
+&nbsp;
+
+코드 하단의
+
+```js
+export default myImg;
+```
+
+이 코드는 myImg라는 이름의 컴포넌트를 내보내겠다는 뜻입니다. 이렇게 해주면 외부에서 myImg 컴포넌트를 불러와서 사용할 수 있습니다.
 
 &nbsp;
 
