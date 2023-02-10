@@ -30,14 +30,29 @@ nav_order: 5
 ### 컴포넌트 단위 개발 (Component Based Development)
 {: .fs-6 }
 
-리액트는 컴포넌트 단위로 개발해야 합니다. 컴포넌트는 사용자 입장에서는 HTML 요소와 크게 다르지 않습니다. 예를 들어, `<img/>` 태그나 `<button></button>` 태그와 같은 기능을 리액트 컴포넌트로 만든다고 했을 때, 우리는 `props`라는 것을 사용해야 합니다.
+**리액트는 컴포넌트 단위로 개발해야 합니다.**{: .text-purple-000 } 컴포넌트는 사용자 입장에서는 HTML 요소와 크게 다르지 않습니다. 예를 들어, `<img/>` 태그나 `<button></button>` 태그와 같은 기능을 리액트 컴포넌트로 만든다고 했을 때, 우리는 `props`라는 속성을 사용해서 해당 기능을 구현할 수 있습니다.
+
+&nbsp;
+
+**HTML Element :**{: .text-grey-dk-200 }
 
 ```
-// HTML Element
 <img src="/myImg.png" alt="내 이미지">
+```
 
-// React Component
-<myImg src={props1} alt={props2}/>
+&nbsp;
+
+**React Component :**{: .text-grey-dk-200 }
+
+```
+function App() {
+        const props = {
+                1 : "/myImg.png",
+                2 : "내 이미지"
+        }
+
+        return ( <img src={props.1} alt={props.2}/> );
+}
 ```
 
 &nbsp;
