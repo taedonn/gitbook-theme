@@ -52,7 +52,7 @@ import myImg from './myImg';
 
 function App() {
         return (
-                <myImg link="./myImg.png" exp="내 이미지"/>
+                <myImg/>
         );
 }
 ```
@@ -76,9 +76,9 @@ App.js에 넣을 컴포넌트
 ```js
 import React from 'react';
 
-function myImg(props) {
+function myImg() {
         return (
-                <img src={props.link} alt={props.exp}/>
+                <img src="./myImg.png" alt="내 이미지"/>
         );
 }
 
