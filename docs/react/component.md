@@ -34,25 +34,37 @@ nav_order: 5
 
 &nbsp;
 
-**HTML Element :**{: .text-grey-dk-200 }
+**구현할 HTML 요소 :**{: .text-grey-dk-200 }
 
 ```
-<img src="/myImg.png" alt="내 이미지">
+<img src="./myImg.png" alt="내 이미지">
 ```
 
 &nbsp;
 
-**React Component :**{: .text-grey-dk-200 }
+**App.js :**{: .text-grey-dk-200 }
 
 ```
-function App() {
-        const props = {
-                1 : "/myImg.png",
-                2 : "내 이미지"
-        }
+import React from 'react';
+import myImg from './myImg';
 
-        return ( <img src={props.1} alt={props.2}/> );
+function App() {
+        return ( <myImg link="./myImg.png" exp="내 이미지"/> );
 }
+```
+
+&nbsp;
+
+**myImg.js :**{: .text-grey-dk-200 }
+
+```
+import React from 'react';
+
+function myImg(props) {
+        return ( <img src={props.link} alt={props.exp}/> );
+}
+
+export default myImg;
 ```
 
 &nbsp;
