@@ -49,7 +49,9 @@ import React from 'react';
 import myImg from './myImg';
 
 function App() {
-        return ( <myImg link="./myImg.png" exp="내 이미지"/> );
+        return (
+                <myImg link="./myImg.png" exp="내 이미지"/>
+        );
 }
 ```
 
@@ -61,7 +63,9 @@ function App() {
 import React from 'react';
 
 function myImg(props) {
-        return ( <img src={props.link} alt={props.exp}/> );
+        return (
+                <img src={props.link} alt={props.exp}/>
+        );
 }
 
 export default myImg;
