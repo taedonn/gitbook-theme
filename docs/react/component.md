@@ -44,6 +44,8 @@ nav_order: 5
 
 **App.js :**{: .text-grey-dk-200 }
 
+index.html에 넣을 컴포넌트
+
 ```
 import React from 'react';
 import myImg from './myImg';
@@ -58,6 +60,8 @@ function App() {
 &nbsp;
 
 **myImg.js :**{: .text-grey-dk-200 }
+
+App.js에 넣을 컴포넌트
 
 ```
 import React from 'react';
