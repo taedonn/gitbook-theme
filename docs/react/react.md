@@ -1,6 +1,6 @@
 ---
 layout: default
-title: React
+title: 리액트
 nav_order: 3
 has_children: true
 permalink: /docs/react

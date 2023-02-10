@@ -1,11 +1,11 @@
 ---
 layout: default
-title: SSR & CSR
-parent: Frontend
-nav_order: 1
+title: 4. SSR & CSR
+parent: 리액트
+nav_order: 4
 ---
 
-# SSR & CSR
+# 4. SSR & CSR
 {: .no_toc }
 
 ## Table of contents

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: JSX
-parent: React
-nav_order: 1
+title: 2. JSX
+parent: 리액트
+nav_order: 2
 ---
 
-# JSX
+# 2. JSX
 {: .no_toc }
 
 ## Table of contents
