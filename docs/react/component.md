@@ -36,7 +36,7 @@ nav_order: 5
 
 **구현할 HTML 요소 :**{: .text-grey-dk-200 }
 
-```
+```html
 <img src="./myImg.png" alt="내 이미지">
 ```
 
@@ -46,7 +46,7 @@ nav_order: 5
 
 index.html에 넣을 컴포넌트
 
-```
+```js
 import React from 'react';
 import myImg from './myImg';
 
@@ -63,7 +63,7 @@ function App() {
 
 App.js에 넣을 컴포넌트
 
-```
+```js
 import React from 'react';
 
 function myImg(props) {
