@@ -172,6 +172,8 @@ export default Hello;
 }
 ```
 
+&nbsp;
+
 ![component_3](../../assets/images/component_3.png)
 
 &nbsp;
