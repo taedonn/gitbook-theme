@@ -34,10 +34,15 @@ JSX는 HTML 코드를 마치 XML을 코딩하는 것처럼 JS 파일에 넣을 �
 JSX에서 자바스크립트 문법을 사용하려면 {}를 사용해야하기 때문에, 스타일을 적용할 때도 객체 형태로 적용해야합니다. 그렇기 때문에 HTML 네이밍 규칙 대신 카멜 케이스 네이밍 규칙을 사용합니다.
 
 ```js
-// ex) background-color => backgroundColor
-// ex) font-size => fontSize
+// background-color => backgroundColor
+// font-size => fontSize
+```
 
-// 스타일을 변수에 저장해서 사용할 때
+&nbsp;
+
+**스타일을 변수에 저장해서 사용할 때**{: .text-grey-dk-200 }
+
+```js
 function App() {
     const style = {
         backgroundColor: "green",
@@ -47,14 +52,21 @@ function App() {
         <div style={style}>Hello, DevBot</div>
     );
 }
+```
 
-// 스타일을 HTML 코드 내부에 사용할 때
+&nbsp;
+
+**스타일을 HTML 코드 내부에 사용할 때**{: .text-grey-dk-200 }
+
+```js
 function App() {
     return (
         <div style={backgroundColor,"green"}>Hello, DevBot</div>
     );
 }
 ```
+
+&nbsp;
 
 | HTML           | JSX                  | 
 |:---------------|:---------------------| 
