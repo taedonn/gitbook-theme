@@ -172,10 +172,6 @@ export default Hello;
 }
 ```
 
-&nbsp;
-
-**브라우저에 렌더링된 화면 :**{: .text-grey-dk-200 }
-
 ![component_3](../../assets/images/component_3.png)
 
 &nbsp;
