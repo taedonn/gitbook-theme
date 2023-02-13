@@ -37,7 +37,7 @@ nav_order: 5
 **구현할 HTML 요소 :**{: .text-grey-dk-200 }
 
 ```html
-<img src="./myImg.png" alt="내 이미지">
+<div>Hello, Devbot</div>
 ```
 
 &nbsp;
@@ -48,11 +48,11 @@ index.html에 넣을 컴포넌트
 
 ```js
 import React from 'react';
-import myImg from './myImg';
+import Hello from './Hello';
 
 function App() {
         return (
-                <myImg/>
+                <Hello/>
         );
 }
 ```
@@ -62,27 +62,27 @@ function App() {
 코드 상단의
 
 ```js
-import myImg from './myImg';
+import Hello from './Hello';
 ```
 
-이 코드는 myImg라는 이름의 컴포넌트를 불러오겠다는 뜻입니다. myImg라는 컴포넌트를 생성하지 않았을 경우 당연하게도 아무것도 뜨지 않습니다.
+이 코드는 Hello라는 이름의 컴포넌트를 불러오겠다는 뜻입니다. Hello라는 컴포넌트를 생성하지 않았을 경우 당연하게도 아무것도 뜨지 않습니다.
 
 &nbsp;
 
-**myImg.js :**{: .text-grey-dk-200 }
+**Hello.js :**{: .text-grey-dk-200 }
 
 App.js에 넣을 컴포넌트
 
 ```js
 import React from 'react';
 
-function myImg() {
+function Hello() {
         return (
-                <img src="./myImg.png" alt="내 이미지"/>
+                <div>Hello, Devbot</div>
         );
 }
 
-export default myImg;
+export default Hello;
 ```
 
 &nbsp;
@@ -90,10 +90,10 @@ export default myImg;
 코드 하단의
 
 ```js
-export default myImg;
+export default Hello;
 ```
 
-이 코드는 myImg라는 이름의 컴포넌트를 내보내겠다는 뜻입니다. 이렇게 해주면 외부에서 myImg 컴포넌트를 불러와서 사용할 수 있습니다.
+이 코드는 Hello라는 이름의 컴포넌트를 내보내겠다는 뜻입니다. 이렇게 해주면 외부에서 Hello 컴포넌트를 불러와서 사용할 수 있습니다.
 
 &nbsp;
 

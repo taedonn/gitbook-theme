@@ -81,8 +81,9 @@ function App() {
 
 React의 가상 돔(Virtual DOM)에서 컴포넌트(Component)의 변화를 효율적으로 비교할 수 있도록 컴포넌트 내부는 하나의 DOM 트리 구조로 이루어져야 한다는 규칙이 있습니다.
 
-에러 케이스
-{: .fs-4 }
+&nbsp;
+
+**에러 케이스**{: .text-grey-dk-200 }
 
 ```js
 // Failed to compile
@@ -97,8 +98,9 @@ function App() {
 }
 ```
 
-정상 케이스
-{: .fs-4 }
+&nbsp;
+
+**정상 케이스**{: .text-grey-dk-200 }
 
 ```js
 function App() {
@@ -136,8 +138,9 @@ function App() {
 
 if문과 for문은 자바스크립트 표현식이 아니기 때문에, JSX 내부 자바스크립트 표현식에서 사용할 수 없습니다. if문과 for문이 자바스크립트 표현식이 아닌 이유는, **표현식은 그 자체로 값을 가지거나, 어떤 것에 값을 할당하는 것**{: .text-purple-000 }이어야 되는데, 예를 들어, '변수가 3보다 클 때 특정 함수를 실행'이라는 if문을 선언했을 때, '변수가 3보다 크다'는 것 자체가 어떤 값이 될 수 없기 때문에, if문과 for문은 자바스크립트 표현식이 아닙니다.
 
-JSX 외부에서 사용
-{: .fs-4 }
+&nbsp;
+
+**JSX 외부에서 사용**{: .text-grey-dk-200 }
 
 ```js
 function App() {
@@ -151,8 +154,9 @@ function App() {
 }
 ```
 
-JSX 내부에서 사용
-{: .fs-4 }
+&nbsp;
+
+**JSX 내부에서 사용**{: .text-grey-dk-200 }
 
 ```js
 function App() {
@@ -167,8 +171,9 @@ function App() {
 }
 ```
 
-연산자 사용
-{: .fs-4 }
+&nbsp;
+
+**연산자 사용**{: .text-grey-dk-200 }
 
 ```js
 // 조건이 만족되지 않을 경우 아무것도 노출되지 않는다.
@@ -183,8 +188,9 @@ function App() {
 }
 ```
 
-즉시실행함수 사용
-{: .fs-4 }
+&nbsp;
+
+**즉시실행함수 사용**{: .text-grey-dk-200 }
 
 ```js
 function App() {
@@ -206,8 +212,9 @@ function App() {
 
 자바스크립트 주석 표현 방식과 동일하게 표기합니다. 자바스크립트 표현 방식을 따라가기 때문에 겉을 {}로 감싸줘야 합니다.
 
-한줄일 때
-{: .fs-4 }
+&nbsp;
+
+**한줄일 때**{: .text-grey-dk-200 }
 
 ```js
 function App() {
@@ -219,8 +226,9 @@ function App() {
 }
 ```
 
-두줄 이상일 때
-{: .fs-4 }
+&nbsp;
+
+**두줄 이상일 때**{: .text-grey-dk-200 }
 
 ```js
 function App() {
