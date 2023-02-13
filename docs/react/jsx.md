@@ -42,7 +42,7 @@ JSX에서 자바스크립트 문법을 사용하려면 {}를 사용해야하기 
 
 **스타일을 변수에 저장해서 사용할 때**{: .text-grey-dk-200 }
 
-```js
+```jsx
 function App() {
     const style = {
         backgroundColor: "green",
@@ -58,7 +58,7 @@ function App() {
 
 **스타일을 HTML 코드 내부에 사용할 때**{: .text-grey-dk-200 }
 
-```js
+```jsx
 function App() {
     return (
         <div style={backgroundColor,"green"}>Hello, DevBot</div>
@@ -85,7 +85,7 @@ React의 가상 돔(Virtual DOM)에서 컴포넌트(Component)의 변화를 효�
 
 **에러 케이스**{: .text-grey-dk-200 }
 
-```js
+```jsx
 // Failed to compile
 // parsing error : adjacent JSX elements be wrapped in an enclosing tag
 // Did you want a JSX fragment <>...</>?
@@ -102,7 +102,7 @@ function App() {
 
 **정상 케이스**{: .text-grey-dk-200 }
 
-```js
+```jsx
 function App() {
     return (
         <>
@@ -120,7 +120,7 @@ function App() {
 
 자바스크립트 표현식을 사용하려면, 작성하고 있는 JSX 내부에서 자바스크립트 코드를 {}로 감싸주기만 하면 됩니다. 개발자가 JSX를 작성하면, 리엑트 엔진이 JSX를 기존 자바스크립트 문법으로 해석해 줍니다. 이러한 방식을 "선언형 화면 기술"이라고 합니다.
 
-```js
+```jsx
 function App() {
     const name = "DevBot";
     return (
@@ -142,7 +142,7 @@ if문과 for문은 자바스크립트 표현식이 아니기 때문에, JSX 내�
 
 **JSX 외부에서 사용**{: .text-grey-dk-200 }
 
-```js
+```jsx
 function App() {
     let name = "";
     const loginYN;
@@ -158,7 +158,7 @@ function App() {
 
 **JSX 내부에서 사용**{: .text-grey-dk-200 }
 
-```js
+```jsx
 function App() {
     const loginYN;
     return (
@@ -175,7 +175,7 @@ function App() {
 
 **연산자 사용**{: .text-grey-dk-200 }
 
-```js
+```jsx
 // 조건이 만족되지 않을 경우 아무것도 노출되지 않는다.
 
 function App() {
@@ -192,7 +192,7 @@ function App() {
 
 **즉시실행함수 사용**{: .text-grey-dk-200 }
 
-```js
+```jsx
 function App() {
     const loginYN;
     return (
@@ -216,7 +216,7 @@ function App() {
 
 **한줄일 때**{: .text-grey-dk-200 }
 
-```js
+```jsx
 function App() {
     return (
         <>
@@ -230,7 +230,7 @@ function App() {
 
 **두줄 이상일 때**{: .text-grey-dk-200 }
 
-```js
+```jsx
 function App() {
     return (
         <>
