@@ -178,6 +178,18 @@ export default Hello;
 
 &nbsp;
 
+코드 상단의
+
+```jsx
+import './Hello.css';
+```
+
+이 코드를 통해 컴포넌트에 css파일을 불러올 수 있습니다. 코드는 절대경로와 상대경로, 둘 중 하나를 선택해 사용할 수 있습니다. 아래와 같이 test라는 root 폴더가 있다고 했을 때, 절대경로의 경우 `/src/Hello.css`, 상대경로일 경우 `./Hello.css`를 사용해 파일을 불러올 수 있습니다.
+
+![component_4](../../assets/images/component_4.png)
+
+&nbsp;
+
 ## Reference
 {: .fs-8 }
 
