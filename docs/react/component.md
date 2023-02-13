@@ -46,7 +46,7 @@ nav_order: 5
 
 index.html에 넣을 컴포넌트
 
-```js
+```jsx
 import React from 'react';
 import Hello from './Hello';
 
@@ -61,7 +61,7 @@ function App() {
 
 코드 상단의
 
-```js
+```jsx
 import Hello from './Hello';
 ```
 
@@ -73,7 +73,7 @@ import Hello from './Hello';
 
 App.js에 넣을 컴포넌트
 
-```js
+```jsx
 import React from 'react';
 
 function Hello() {
@@ -89,7 +89,7 @@ export default Hello;
 
 코드 하단의
 
-```js
+```jsx
 export default Hello;
 ```
 
@@ -97,15 +97,15 @@ export default Hello;
 
 &nbsp;
 
-이제 이거를 로컬서버에서 실행하면 아래와 같이 표현됩니다. 스타일링을 따로 하지 않았기 때문에 브라우저의 기본 폰트 패밀리와 폰트 크기를 계승합니다.
+이제 이 코드를 로컬서버에서 실행하면 아래와 같이 표현됩니다. 스타일링을 따로 하지 않았기 때문에 브라우저의 기본 폰트 패밀리와 폰트 크기를 계승합니다.
 
 ![component_1](../../assets/images/component_1.png)
 
 &nbsp;
 
-컴포넌트가 재사용가능하다는 것은 리액트의 가장 큰 장점 중 하나입니다. 컴포넌트는 다음과 같이 재사용할 수 있습니다.
+**컴포넌트가 재사용가능하다는 것은 리액트의 가장 큰 장점 중 하나**{: .text-purple-000 }입니다. 컴포넌트는 다음과 같이 재사용할 수 있습니다.
 
-```js
+```jsx
 import React from 'react';
 import Hello from './Hello';
 
@@ -121,6 +121,25 @@ function App() {
 ```
 
 ![component_2](../../assets/images/component_2.png)
+
+&nbsp;
+
+`Hello` 컴포넌트를 여러개 넣었을 때 `<></>` 태그로 감싼 이유는 '반드시 하나의 부모요소가 감싸는 형태여야 한다.'는 JSX 문법 때문입니다. 위처럼 빈 태그를 넣어도 되고, `<div></div>`나 `<span></span>` 등 기존 HTML 태그를 넣어도 됩니다.
+
+```jsx
+<>
+        <Hello/>
+        <Hello/>
+        <Hello/>
+</>
+```
+
+&nbsp;
+
+### 컴포넌트 스타일링
+{: .fs-6 }
+
+컴포넌트는 CSS를 이용해 스타일링 할 수 있습니다.
 
 &nbsp;
 
