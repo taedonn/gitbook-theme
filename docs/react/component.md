@@ -124,7 +124,7 @@ function App() {
 
 &nbsp;
 
-`Hello` 컴포넌트를 여러개 넣었을 때 `<></>` 태그로 감싼 이유는 **'반드시 하나의 부모요소가 감싸는 형태여야 한다.'**{: .text-purple-000 }는 JSX 문법 때문입니다. 위처럼 빈 태그를 넣어도 되고, `<div></div>`나 `<span></span>` 등 기존 HTML 태그를 넣어도 됩니다.
+`Hello` 컴포넌트를 여러개 썼을 때, 기존과 다르게 `<></>` 태그로 감싼 걸 볼 수 있습니다.
 
 ```jsx
 <>
@@ -134,12 +134,49 @@ function App() {
 </>
 ```
 
+`Hello` 컴포넌트를 여러개 넣었을 때 `<></>` 태그로 감싼 이유는 **'반드시 하나의 부모요소가 감싸는 형태여야 한다.'**{: .text-purple-000 }는 JSX 문법 때문입니다. 위처럼 빈 태그를 넣어도 되고, `<div></div>`나 `<span></span>` 등 기존 HTML 태그를 넣어도 됩니다.
+
 &nbsp;
 
 ### 컴포넌트 스타일링
 {: .fs-6 }
 
 컴포넌트는 CSS를 이용해 스타일링 할 수 있습니다.
+
+&nbsp;
+
+**Hello.js :**{: .text-grey-dk-200 }
+
+```jsx
+import React from 'react';
+import './Hello.css'
+
+function Hello() {
+        return (
+                <div className='hello'>Hello, Devbot</div>
+        );
+}
+
+export default Hello;
+```
+
+&nbsp;
+
+**Hello.css :**{: .text-grey-dk-200 }
+
+```css
+.hello {
+        font-size: 20px;
+        font-weight: 700;
+        color: blue;
+}
+```
+
+&nbsp;
+
+**브라우저에 렌더링된 화면 :**{: .text-grey-dk-200 }
+
+![component_3](../../assets/images/component_3.png)
 
 &nbsp;
 
