@@ -97,6 +97,33 @@ export default Hello;
 
 &nbsp;
 
+이제 이거를 로컬서버에서 실행하면 아래와 같이 표현됩니다. 스타일링을 따로 하지 않았기 때문에 브라우저의 기본 폰트 패밀리와 폰트 크기를 계승합니다.
+
+![component_1](../../assets/images/component_1.png)
+
+&nbsp;
+
+컴포넌트가 재사용가능하다는 것은 리액트의 가장 큰 장점 중 하나입니다. 컴포넌트는 다음과 같이 재사용할 수 있습니다.
+
+```js
+import React from 'react';
+import Hello from './Hello';
+
+function App() {
+        return (
+                <>
+                        <Hello/>
+                        <Hello/>
+                        <Hello/>
+                </>
+        );
+}
+```
+
+![component_2](../../assets/images/component_2.png)
+
+&nbsp;
+
 ## Reference
 {: .fs-8 }
 
