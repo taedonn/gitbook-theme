@@ -34,7 +34,7 @@ nav_order: 5
 
 &nbsp;
 
-**구현할 HTML 요소 :**{: .text-grey-dk-200 }
+**구현할 HTML 요소**{: .text-grey-dk-200 }
 
 ```html
 <div>Hello, Devbot</div>
@@ -42,7 +42,7 @@ nav_order: 5
 
 &nbsp;
 
-**index.html :**{: .text-grey-dk-200 }
+**index.html**{: .text-grey-dk-200 }
 
 ```html
 <body>
@@ -63,7 +63,7 @@ nav_order: 5
 
 &nbsp;
 
-**index.js :**{: .text-grey-dk-200 }
+**index.js**{: .text-grey-dk-200 }
 
 ```jsx
 import React from 'react';
@@ -97,7 +97,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 &nbsp;
 
-**App.js :**{: .text-grey-dk-200 }
+**App.js**{: .text-grey-dk-200 }
 
 index.html에 넣을 컴포넌트
 
@@ -124,7 +124,7 @@ import Hello from './Hello';
 
 &nbsp;
 
-**Hello.js :**{: .text-grey-dk-200 }
+**Hello.js**{: .text-grey-dk-200 }
 
 App.js에 넣을 컴포넌트
 
@@ -200,7 +200,7 @@ function App() {
 
 &nbsp;
 
-**Hello.js :**{: .text-grey-dk-200 }
+**Hello.js**{: .text-grey-dk-200 }
 
 ```jsx
 import React from 'react';
@@ -217,7 +217,7 @@ export default Hello;
 
 &nbsp;
 
-**Hello.css :**{: .text-grey-dk-200 }
+**Hello.css**{: .text-grey-dk-200 }
 
 ```css
 .hello {
