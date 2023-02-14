@@ -42,6 +42,61 @@ nav_order: 5
 
 &nbsp;
 
+**index.html :**{: .text-grey-dk-200 }
+
+```html
+<body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root"></div>
+</body>
+```
+
+&nbsp;
+
+`<body></body>` 태그 내부의
+
+```html
+<div id="root"></div>
+```
+
+`root`라는 아이디를 가지고 있는 요소 내부에 리액트는 렌더링 됩니다. `index.html` 파일은 다른 컴포넌트 파일과 달리 `src` 폴더가 아닌 `public` 폴더 내부에 있습니다.
+
+&nbsp;
+
+**index.js :**{: .text-grey-dk-200 }
+
+```jsx
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+        <React.StrictMode>
+                <App/>
+        </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+```
+
+&nbsp;
+
+코드 중단의
+
+```jsx
+const root = ReactDOM.createRoot(document.getElementById('root'));
+```
+
+이 코드는 `index.html` 파일 내부의 `root`라는 아이디를 가지고 있는 요소 내부에 리액트를 렌더랑한다는 것을 의미합니다.
+
+&nbsp;
+
 **App.js :**{: .text-grey-dk-200 }
 
 index.html에 넣을 컴포넌트
@@ -187,6 +242,10 @@ import './Hello.css';
 이 코드를 통해 컴포넌트에 css파일을 불러올 수 있습니다. 코드는 절대경로와 상대경로, 둘 중 하나를 선택해 사용할 수 있습니다. 아래와 같이 test라는 root 폴더가 있다고 했을 때, 절대경로의 경우 `/src/Hello.css`, 상대경로일 경우 `./Hello.css`를 통해 파일을 불러올 수 있습니다.
 
 ![component_4](../../assets/images/component_4.png)
+
+&nbsp;
+
+이외에도, 컴포넌트는 다양한 방식으로 활용될 수 있습니다. HTML 코드말고도 자바스크립트 계산식을 return하는 컴포넌트를 만들수도 있고, `props`를 통해 상위 컴포넌트의 데이터를 하위 컴포넌트로 전달받을수도 있습니다.
 
 &nbsp;
 
