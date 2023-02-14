@@ -44,6 +44,8 @@ nav_order: 5
 
 **index.html**{: .text-grey-dk-200 }
 
+리액트를 렌더링할 베이스 파일
+
 ```html
 <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -64,6 +66,8 @@ nav_order: 5
 &nbsp;
 
 **index.js**{: .text-grey-dk-200 }
+
+`index.html`에 렌더링할 리액트 최상위 컴포넌트
 
 ```jsx
 import React from 'react';
@@ -99,7 +103,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 **App.js**{: .text-grey-dk-200 }
 
-index.html에 넣을 컴포넌트
+index.js에 넣을 컴포넌트
 
 ```jsx
 import React from 'react';
