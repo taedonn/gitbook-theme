@@ -30,7 +30,7 @@ nav_order: 5
 ### 컴포넌트 단위 개발 (Component Based Development)
 {: .fs-6 }
 
-**리액트는 컴포넌트 단위로 개발해야 합니다.**{: .text-purple-000 } 컴포넌트는 사용자 입장에서는 HTML 요소와 크게 다르지 않습니다. `<div></div>`나 `<span></span>` 태그를 리액트 컴포넌트로 만든다고 했을 때, 컴포넌트 내부에서 `jsx` 문법을 통해 HTML 요소를 return하여 만들 수 있습니다.
+**리액트는 컴포넌트 단위로 개발해야 합니다.**{: .text-purple-000 } 컴포넌트는 사용자 입장에서는 HTML 요소와 크게 다르지 않습니다. `<div></div>`나 `<span></span>` 태그를 리액트 컴포넌트로 만든다고 했을 때, 컴포넌트 내부에서 `jsx` 문법을 사용해 HTML 요소를 return하여 만들 수 있습니다.
 
 &nbsp;
 
@@ -97,7 +97,7 @@ reportWebVitals();
 const root = ReactDOM.createRoot(document.getElementById('root'));
 ```
 
-이 코드는 `index.html` 파일 내부의 `root`라는 아이디를 가지고 있는 요소 내부에 리액트를 렌더랑한다는 것을 의미합니다. 기존 HTML 파일에 리액트를 import하는 경우, `ReactDOM.createRoot()` 함수 내부에 렌더링하길 원하는 태그를 지정합니다.
+이 코드는 `index.html` 파일 내부의 `root`라는 아이디를 가지고 있는 요소 내부에 리액트를 렌더랑한다는 뜻입니다. 기존 HTML 파일에 리액트를 import하는 경우, `ReactDOM.createRoot()` 함수를 사용해 리액트를 렌더링할 태그를 지정할 수 있습니다.
 
 &nbsp;
 
