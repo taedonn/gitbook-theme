@@ -44,7 +44,7 @@ nav_order: 5
 
 **index.html**{: .text-grey-dk-200 }
 
-: 리액트를 렌더링할 베이스 파일
+> 리액트를 렌더링할 베이스 파일
 
 ```html
 <body>
@@ -67,7 +67,7 @@ nav_order: 5
 
 **index.js**{: .text-grey-dk-200 }
 
-: `index.html`에 렌더링할 리액트 최상위 컴포넌트
+> `index.html`에 렌더링할 리액트 최상위 컴포넌트
 
 ```jsx
 import React from 'react';
@@ -103,7 +103,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 **App.js**{: .text-grey-dk-200 }
 
-: index.js에 넣을 컴포넌트
+> index.js에 넣을 컴포넌트
 
 ```jsx
 import React from 'react';
@@ -130,7 +130,7 @@ import Hello from './Hello';
 
 **Hello.js**{: .text-grey-dk-200 }
 
-: App.js에 넣을 컴포넌트
+> App.js에 넣을 컴포넌트
 
 ```jsx
 import React from 'react';
