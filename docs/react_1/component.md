@@ -21,9 +21,9 @@ nav_order: 5
 
 리액트는 `컴포넌트`라는 재사용가능한 UI 파편을 통해 복잡한 앱을 더욱 효율적으로 만들 수 있습니다. 리액트 공식홈페이지에서는 컴포넌트를 다음과 같이 정의하고 있습니다.
 
-- `컴포넌트`는 **재활용 가능한 UI 구성 단위**{: .text-purple-000 }입니다. UI가 재활용 가능하다는 것은 리액트의 큰 장점 중 하나이며, 서비스의 유지보수 측면에서 뛰어나고 페이지의 구성을 한눈에 파악할 수 있습니다.
+> `컴포넌트`는 **재활용 가능한 UI 구성 단위**{: .text-purple-000 }입니다. UI가 재활용 가능하다는 것은 리액트의 큰 장점 중 하나이며, 서비스의 유지보수 측면에서 뛰어나고 페이지의 구성을 한눈에 파악할 수 있습니다.
 
-> 리액트에게 화면에 표현하고 싶은 게 무엇인지 우리는 컴포넌트를 통해 알려줍니다. 리액트는 데이터가 변경될 때 기존 DOM 렌더링 방식과 다르게 가상 DOM을 활용해 컴포넌트를 더 효율적인 방식으로 화면에 렌더링합니다.
+리액트에게 화면에 표현하고 싶은 게 무엇인지 우리는 컴포넌트를 통해 알려줍니다. 리액트는 데이터가 변경될 때 기존 DOM 렌더링 방식과 다르게 가상 DOM을 활용해 컴포넌트를 더 효율적인 방식으로 화면에 렌더링합니다.
 
 &nbsp;
 
@@ -44,7 +44,7 @@ nav_order: 5
 
 **index.html**{: .text-grey-dk-200 }
 
-리액트를 렌더링할 베이스 파일
+: 리액트를 렌더링할 베이스 파일
 
 ```html
 <body>
@@ -67,7 +67,7 @@ nav_order: 5
 
 **index.js**{: .text-grey-dk-200 }
 
-`index.html`에 렌더링할 리액트 최상위 컴포넌트
+: `index.html`에 렌더링할 리액트 최상위 컴포넌트
 
 ```jsx
 import React from 'react';
@@ -103,7 +103,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 **App.js**{: .text-grey-dk-200 }
 
-index.js에 넣을 컴포넌트
+: index.js에 넣을 컴포넌트
 
 ```jsx
 import React from 'react';
@@ -130,7 +130,7 @@ import Hello from './Hello';
 
 **Hello.js**{: .text-grey-dk-200 }
 
-App.js에 넣을 컴포넌트
+: App.js에 넣을 컴포넌트
 
 ```jsx
 import React from 'react';
