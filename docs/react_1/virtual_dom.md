@@ -19,7 +19,7 @@ nav_order: 3
 ## DOM이란?
 {: .fs-8 }
 
-DOM이란 **D**{: .text-purple-000 }ocument **O**{: .text-purple-000 }bject **M**{: .text-purple-000 }odel (문서 객체 모델)의 약자입니다. 문서 객체 모델은 브라우저에서 `HTML 태그`를 `객체(Object)`로 만들어 프로그래밍 언어가 DOM 구조에 접근하는 것을 돕는 역할을 합니다. 
+DOM이란 **D**{: .text-purple-000 }**ocument**{: .text-grey-dk-200 } **O**{: .text-purple-000 }**bject**{: .text-grey-dk-200 } **M**{: .text-purple-000 }**odel**{: .text-grey-dk-200 } (문서 객체 모델)의 약자입니다. 문서 객체 모델은 브라우저에서 `HTML 태그`를 `객체(Object)`로 만들어 프로그래밍 언어가 DOM 구조에 접근하는 것을 돕는 역할을 합니다. 
 
 > 한마디로 문서 객체 모델은 문서 내의 모든 요소를 정의하고, 각각의 요소에 접근하는 방법을 제공합니다.
 
