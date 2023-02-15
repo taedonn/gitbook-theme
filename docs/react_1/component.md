@@ -57,7 +57,7 @@ nav_order: 5
 <div id="root"></div>
 ```
 
-`root`라는 아이디를 가지고 있는 요소 내부에 리액트는 렌더링 됩니다. `index.html` 파일은 다른 컴포넌트 파일과 달리 `src` 폴더가 아닌 `public` 폴더 내부에 있습니다.
+`root`라는 아이디를 가지고 있는 요소 내부에 리액트가 렌더링 됩니다. `index.html` 파일은 다른 컴포넌트 파일과 달리 `src` 폴더가 아닌 `public` 폴더 내부에 있습니다.
 
 &nbsp;
 
@@ -93,7 +93,7 @@ reportWebVitals();
 const root = ReactDOM.createRoot(document.getElementById('root'));
 ```
 
-이 코드는 `index.html`에서 `root`라는 아이디를 가지고 있는 요소 내부에 리액트를 렌더랑한다는 뜻입니다. 기존 HTML 파일에 리액트를 import하는 경우, `ReactDOM.createRoot()` 함수를 사용해 리액트를 렌더링할 태그를 지정할 수 있습니다.
+이 코드는 `index.html`에서 `root`라는 아이디를 가지고 있는 요소 내부에 리액트를 렌더랑한다는 뜻입니다. 새로운 프로젝트가 아닌 기존 프로젝트에 리액트를 import하는 경우, `ReactDOM.createRoot()` 함수를 사용해 리액트를 렌더링할 태그를 지정할 수 있습니다.
 
 &nbsp;
 
@@ -158,7 +158,7 @@ export default Hello;
 
 &nbsp;
 
-리액트 공식 홈페이지는 컴포넌트를 '재활용가능한 UI 구성 단위'라고 정의합니다. **컴포넌트가 재활용가능하다는 것은 리액트의 가장 큰 장점 중 하나**{: .text-purple-000 }입니다. 컴포넌트 재활용에 대한 예시는 다음과 같습니다.
+리액트 공식 홈페이지는 컴포넌트를 '재활용가능한 UI 구성 단위'라고 정의합니다. 컴포넌트 재활용에 대한 예시는 다음과 같습니다.
 
 ```jsx
 import React from 'react';
@@ -239,13 +239,13 @@ export default Hello;
 import './Hello.css';
 ```
 
-이 코드를 통해 컴포넌트에 css 파일을 불러올 수 있습니다. 파일은 절대경로나 상대경로를 통해 불러올 수 있는데, 아래와 같이 test라는 root 폴더가 있고, `Hello.js` 파일에 `Hello.css` 파일을 불러오려 할 때, 절대경로의 경우 `/src/Hello.css`, 상대경로일 경우 `./Hello.css`로 파일을 불러올 수 있다.
+이 코드를 통해 컴포넌트에 css 파일을 불러올 수 있습니다. 파일은 절대경로나 상대경로를 통해 불러올 수 있는데, 아래 예시에서 `Hello.js` 파일에 `Hello.css` 파일을 불러오려 할 때, 절대경로의 경우 `/src/Hello.css`, 상대경로일 경우 `./Hello.css`로 파일을 불러올 수 있다.
 
 ![component_4](../../assets/images/component_4.png)
 
 &nbsp;
 
-이외에도, 컴포넌트는 다양한 방식으로 활용될 수 있습니다. HTML 코드말고도 자바스크립트 계산식을 return하는 컴포넌트를 만들수도 있고, `props`를 통해 상위 컴포넌트의 데이터를 하위 컴포넌트로 전달받을수도 있습니다.
+이외에도, 컴포넌트는 다양한 방식으로 활용될 수 있습니다. HTML 요소 이외에도 자바스크립트 계산식을 return하는 컴포넌트를 만들수도 있고, `props`를 통해 상위 컴포넌트의 데이터를 하위 컴포넌트로 전달받을수도 있습니다.
 
 &nbsp;
 
