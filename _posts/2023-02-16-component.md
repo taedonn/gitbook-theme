@@ -1,8 +1,9 @@
 ---
-layout: default
 title: 6. 컴포넌트
-parent: 리액트 입문하기
-nav_order: 6
+author: Tae Ho Lee
+date: 2023-02-16
+category: react
+layout: post
 ---
 
 # 6. 컴포넌트

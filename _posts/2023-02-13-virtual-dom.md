@@ -1,8 +1,9 @@
 ---
-layout: default
 title: 3. 가상 DOM
-parent: 리액트 입문하기
-nav_order: 3
+author: Tae Ho Lee
+date: 2023-02-13
+category: react
+layout: post
 ---
 
 # 3. 가상 DOM

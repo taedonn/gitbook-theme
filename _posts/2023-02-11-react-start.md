@@ -1,8 +1,8 @@
 ---
 title: 1. 리액트는 왜 만들어졌을까?
 author: Tae Ho Lee
-date: 2022-02-15
-category: Jekyll
+date: 2023-02-11
+category: react
 layout: post
 ---
 
