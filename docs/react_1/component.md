@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 5. 컴포넌트
+title: 6. 컴포넌트
 parent: 리액트 입문하기
-nav_order: 5
+nav_order: 6
 ---
 
-# 5. 컴포넌트
+# 6. 컴포넌트
 {: .no_toc }
 
 ## Table of contents
