@@ -6,17 +6,6 @@ category: react
 layout: post
 ---
 
-# 6. 컴포넌트
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-- TOC
-{:toc}
-
----
-
 ## 컴포넌트?
 {: .fs-8 }
 
@@ -155,7 +144,7 @@ export default Hello;
 
 이제 이 코드를 로컬서버에서 실행하면 아래와 같이 표현됩니다. 스타일링을 따로 하지 않았기 때문에 브라우저의 기본 폰트 패밀리와 폰트 크기를 계승합니다.
 
-![component_1](../../assets/images/component_1.png)
+![component_1](../assets/gitbook/images/component_1.png)
 
 &nbsp;
 
@@ -176,7 +165,7 @@ function App() {
 }
 ```
 
-![component_2](../../assets/images/component_2.png)
+![component_2](../assets/gitbook/images/component_2.png)
 
 &nbsp;
 
@@ -230,7 +219,7 @@ export default Hello;
 
 &nbsp;
 
-![component_3](../../assets/images/component_3.png)
+![component_3](../assets/gitbook/images/component_3.png)
 
 &nbsp;
 
@@ -242,7 +231,7 @@ import './Hello.css';
 
 이 코드를 통해 컴포넌트에 css 파일을 불러올 수 있습니다. 파일은 절대경로나 상대경로를 통해 불러올 수 있는데, 아래 예시에서 `Hello.js` 파일에 `Hello.css` 파일을 불러오려 할 때, 절대경로의 경우 `/src/Hello.css`, 상대경로일 경우 `./Hello.css`로 파일을 불러올 수 있다.
 
-![component_4](../../assets/images/component_4.png)
+![component_4](../assets/gitbook/images/component_4.png)
 
 &nbsp;
 
