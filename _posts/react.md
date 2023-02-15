@@ -1,9 +1,10 @@
 ---
-layout: default
 title: 리액트 입문하기
-nav_order: 2
-has_children: true
-permalink: /docs/react_1
+author: Tae Ho Lee
+date: 2022-02-10
+category: Jekyll
+layout: post
 ---
+
 
 ![title_react](../../assets/images/title_react.png)
