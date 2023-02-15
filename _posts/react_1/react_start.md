@@ -1,8 +1,9 @@
 ---
-layout: default
 title: 1. 리액트는 왜 만들어졌을까?
-parent: 리액트 입문하기
-nav_order: 1
+author: Tae Ho Lee
+date: 2022-02-15
+category: Jekyll
+layout: post
 ---
 
 # 1. 리액트는 왜 만들어졌을까?
