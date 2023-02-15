@@ -19,7 +19,7 @@ nav_order: 4
 ## SSR(Server Side Rendering)
 {: .fs-8 }
 
-**S**{: .text-purple-000 }erver **S**{: .text-purple-000 }ide **R**{: .text-purple-000 }endering의 약자로 **서버쪽에서 렌더링 준비를 끝마친 상태로 클라이언트에 전달하는 방식**{: .text-purple-000 }입니다.
+**S**{: .text-purple-000 }**erver**{: .text-grey-dk-200 } **S**{: .text-purple-000 }**ide**{: .text-grey-dk-200 } **R**{: .text-purple-000 }**endering**{: .text-grey-dk-200 }의 약자로 **서버쪽에서 렌더링 준비를 끝마친 상태로 클라이언트에 전달하는 방식**{: .text-purple-000 }입니다.
 
 ![ssr_csr_1](../../assets/images/ssr_csr_1.png)
 
@@ -40,7 +40,7 @@ nav_order: 4
 ## CSR(Client Side Rendering)
 {: .fs-8 }
 
-**C**{: .text-purple-000 }lient **S**{: .text-purple-000 }ide **R**{: .text-purple-000 }endering의 약자로 SSR과 달리 **클라이언트 쪽에서 렌더링을 하는 방식**{: .text-purple-000 }입니다. 서버는 요청을 받게 되면 클라이언트에 HTML과 JS 파일을 보내고, 클라이언트는 그것을 받아 렌더링을 시작합니다.
+**C**{: .text-purple-000 }**lient**{: .text-grey-dk-200 } **S**{: .text-purple-000 }**ide**{: .text-grey-dk-200 } **R**{: .text-purple-000 }**endering**{: .text-grey-dk-200 }의 약자로 SSR과 달리 **클라이언트 쪽에서 렌더링을 하는 방식**{: .text-purple-000 }입니다. 서버는 요청을 받게 되면 클라이언트에 HTML과 JS 파일을 보내고, 클라이언트는 그것을 받아 렌더링을 시작합니다.
 
 ![ssr_csr_2](../../assets/images/ssr_csr_2.png)
 
@@ -82,11 +82,11 @@ SSR의 경우 필요한 부분의 HTML과 스크립트만 불러오는 반면, C
 ### 검색엔진최적화(SEO) 대응
 {: .fs-6 }
 
-SEO는 **S**{: .text-purple-000 }earch **E**{: .text-purple-000 }ngine **O**{: .text-purple-000 }ptimization의 약자로 검색 엔진이 이해하기 쉽게 웹사이트를 개발해 검색 결과 상위권에 노출될 수 있도록 하는 작업을 뜻합니다. 검색 엔진은 자동화 로봇인 '크롤러'를 통해 웹사이트를 자동으로 읽습니다. 
+SEO는 **S**{: .text-purple-000 }**earch**{: .text-grey-dk-200 } **E**{: .text-purple-000 }**ngine**{: .text-grey-dk-200 } **O**{: .text-purple-000 }**ptimization**{: .text-grey-dk-200 }의 약자로 검색 엔진이 이해하기 쉽게 웹사이트를 개발해 검색 결과 상위권에 노출될 수 있도록 하는 작업을 뜻합니다. 검색 엔진은 자동화 로봇인 '크롤러'를 통해 웹사이트를 자동으로 읽습니다. 
 
-CSR은 자바스크립트가 실행되야 크롤러가 읽을 수 있는 `metadata`를 반환하기 때문에, 첫 페이지 로딩 시에 빈 `<body></body>` 태그만 크롤러에 반환됩니다. 하지만 위의 페이지 로딩시간에 대한 설명에서 나오듯, CSR은 웹사이트에서 필요한 모든 파일을 첫 페이지 로딩 시 다운받기 때문에, 사이트의 다른 곳으로 이동 시에는 올바른 `metadata`가 크롤러에 반환됩니다. 
+CSR은 자바스크립트가 실행되야 크롤러가 읽을 수 있는 `metadata`를 반환하기 때문에, 첫 페이지 로딩 시에 빈 `<body></body>` 태그만 크롤러에 반환됩니다. 하지만 CSR은 웹사이트에서 필요한 모든 파일을 첫 페이지 로딩 시 다운받기 때문에, 사이트의 다른 곳으로 이동 시에는 올바른 `metadata`가 크롤러에 반환됩니다. 
 
-반면에 SSR의 경우 서버에서 이미 문자열로 표현된 HTML 파일을 전달하기 떄문에, 첫 페이지 로딩부터 크롤러에 대부분의 `metadata`가 반환됩니다.
+반면에 SSR의 경우 서버에서 이미 문자열로 표현된 HTML 파일을 전달하기 때문에, 첫 페이지 로딩부터 크롤러에 대부분의 `metadata`가 반환됩니다.
 
 **리액트는 CSR에 최적화되어있는 라이브러리**{: .text-purple-000 }이지만, Gatsby와 같은 라이브러리를 통해 리액트로 만들어진 웹앱을 미리 정적인 웹페이지로 생성하여 서버에 배포할 수 있습니다. 이렇게 만들어진 페이지는 정적이지만, 웹사이트 로딩 시 기존과 동일하게 추가적으로 JS 파일을 다운받았을 때 상호작용이 가능한 웹사이트가 됩니다.
 
