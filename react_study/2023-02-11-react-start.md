@@ -12,7 +12,7 @@
 
 ### 1. 단방향 데이터 흐름 (Unidirectional Data Flow)
 
-![virtual_dom_1](../../images/react_start_1.png)
+![virtual_dom_1](/images/react_start_1.png)
 
 리액트는 Reactive한 단방향의 데이터 흐름을 가지고 있습니다. Reactive하다는 것은 `상태(State)`가 바뀌면 뷰도 업데이트된다는 것이며, 단방향 데이터 흐름(Unidirectional Data Flow)은 한 방향으로 데이터가 흐른다는 것입니다. 리액트에서 데이터는 `상위 컴포넌트(Parent)`에서 `하위 컴포넌트(Children)`로 흐르는데, 이 데이터를 리액트에서는 `props`라고 지칭합니다.
 
@@ -22,7 +22,7 @@
 
 ### 2. JSX (JavaScript XML)
 
-![virtual_dom_1](../../images/react_start_2.png)
+![virtual_dom_1](/images/react_start_2.png)
 
 `JSX`는 페이스북에서 정의한 XML과 비슷한 자바스크립트 확장 문법입니다. `JSX`라고 하면 템플릿 언어를 떠올릴 수 있지만, 템플릿 언어와 다르게 `JSX`는 자바스크립트의 모든 기능을 사용할 수 있습니다. 또한 `JSX`의 사용은 권장 사항일 뿐, 자바스크립트만을 사용해 리액트 컴포넌트를 구현할수도 있습니다.
 
@@ -32,7 +32,7 @@
 
 ### 3. 가상 DOM (Virtual DOM)
 
-![virtual_dom_2](../../images/virtual_dom_2.png)
+![virtual_dom_2](/images/virtual_dom_2.png)
 
 데이터가 변경될 때 변경된 부분만 리렌더링하여 새로고침하지 않아도 변경된 내용을 확인할 수 있게 하는게 리액트의 대표적인 특징 중 하나인데, 이건 데이터가 변경될 때마다 **가상 DOM과 기존 DOM을 비교하여 다른 부분만 교체하는 Diffing 방식을 사용**하기 때문입니다.
 
@@ -84,14 +84,3 @@ MVC 패턴은 매우 효율적인 방식이지만, 규모가 커질수록 컨트
 - [[React] React 기본 개념](https://velog.io/@kim-jaemin420/React-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90)
 - [[React] 페이스북은 왜 리액트를 만들었을까](https://velog.io/@sunaaank/why-facebook-makes-react)
 - [[React] 안녕, 리액트(Hello, React)](https://blog.gaerae.com/2016/04/hello-react.html)
-
-&nbsp;
-
-<script src="https://utteranc.es/client.js"
-        repo="xxdevbosa/blog"
-        issue-term="pathname"
-        label="blog"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>

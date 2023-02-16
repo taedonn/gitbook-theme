@@ -12,28 +12,28 @@
         
         
     
-    <link rel="stylesheet" href="../../gitbook/style.css">
+    <link rel="stylesheet" href="../gitbook/style.css">
 
     
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-collapsible-chapters/collapsible-chapters.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-collapsible-chapters/collapsible-chapters.css">
                 
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-comment/plugin.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-comment/plugin.css">
                 
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
                 
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
                 
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
                 
             
         
@@ -61,8 +61,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
-    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
     <link rel="next" href="2023-02-14-ssr-csr.html" />
@@ -97,9 +97,9 @@
         
         
     
-        <li class="chapter " data-level="1.1" data-path="../../">
+        <li class="chapter " data-level="1.1" data-path="../">
             
-                <a href="../../">
+                <a href="../">
             
                     
                     기록하는 개발자
@@ -110,9 +110,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="2023-02-10-react.html">
+        <li class="chapter " data-level="1.2" data-path="./">
             
-                <a href="2023-02-10-react.html">
+                <a href="./">
             
                     
                     리액트 스터디
@@ -237,7 +237,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >3. 가상 DOM이란?</a>
+        <a href=".." >3. 가상 DOM이란?</a>
     </h1>
 </div>
 
@@ -257,7 +257,7 @@
 <blockquote>
 <p>&#xD55C;&#xB9C8;&#xB514;&#xB85C; &#xBB38;&#xC11C; &#xAC1D;&#xCCB4; &#xBAA8;&#xB378;&#xC740; &#xBB38;&#xC11C; &#xB0B4;&#xC758; &#xBAA8;&#xB4E0; &#xC694;&#xC18C;&#xB97C; &#xC815;&#xC758;&#xD558;&#xACE0;, &#xAC01;&#xAC01;&#xC758; &#xC694;&#xC18C;&#xC5D0; &#xC811;&#xADFC;&#xD558;&#xB294; &#xBC29;&#xBC95;&#xC744; &#xC81C;&#xACF5;&#xD569;&#xB2C8;&#xB2E4;.</p>
 </blockquote>
-<p><img src="../../images/virtual_dom_1.png" alt="virtual_dom_1"></p>
+<p><img src="../images/virtual_dom_1.png" alt="virtual_dom_1"></p>
 <p>&#xA0;</p>
 <h3 id="dom&#xC744;-&#xB80C;&#xB354;&#xB9C1;&#xD558;&#xB294;-&#xACFC;&#xC815;">DOM&#xC744; &#xB80C;&#xB354;&#xB9C1;&#xD558;&#xB294; &#xACFC;&#xC815;</h3>
 <ol>
@@ -280,7 +280,7 @@
 <p>&#xA0;</p>
 <h3 id="&#xB9AC;&#xC561;&#xD2B8;&#xC5D0;&#xC11C;-&#xAC00;&#xC0C1;-dom&#xC744;-&#xC0AC;&#xC6A9;&#xD558;&#xB294;-&#xC774;&#xC720;">&#xB9AC;&#xC561;&#xD2B8;&#xC5D0;&#xC11C; &#xAC00;&#xC0C1; DOM&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xB294; &#xC774;&#xC720;</h3>
 <p>&#xB9AC;&#xC561;&#xD2B8;&#xC5D0;&#xC11C; <code>&#xAC00;&#xC0C1; DOM</code>&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xB294; &#xC774;&#xC720;&#xB294;, <code>&#xC0C1;&#xD0DC;(State)</code>&#xAC00; &#xBCC0;&#xD588;&#xC744; &#xB54C; &#xBE0C;&#xB77C;&#xC6B0;&#xC800; &#xC804;&#xCCB4;&#xAC00; &#xC544;&#xB2CC; &#xAE30;&#xC874;&#xC758; DOM&#xACFC; &#xBE44;&#xAD50;&#xD574;&#xC11C; &#xB2EC;&#xB77C;&#xC9C4; &#xBD80;&#xBD84;&#xB9CC; &#xBCC0;&#xACBD;&#xD558;&#xAE30; &#xB54C;&#xBB38;&#xC785;&#xB2C8;&#xB2E4;.</p>
-<p><img src="../assets/gitbook/images/virtual_dom_2.png" alt="virtual_dom_2"></p>
+<p><img src="../images/virtual_dom_2.png" alt="virtual_dom_2"></p>
 <p>&#xC774;&#xB7EC;&#xD55C; &#xBC29;&#xC2DD;&#xC740; &#xC774;&#xC804; UI &#xC0C1;&#xD0DC;&#xB97C; &#xBA54;&#xBAA8;&#xB9AC;&#xC5D0; &#xC720;&#xC9C0;&#xD55C; &#xCCB4;, &#xBCC0;&#xACBD;&#xB420; UI&#xC758; &#xCD5C;&#xC18C;&#xC9D1;&#xD569;&#xC744; &#xACC4;&#xC0B0;&#xD558;&#xC5EC; &#xD544;&#xC694;&#xD55C; &#xBD80;&#xBD84;&#xB9CC; &#xAD50;&#xCCB4;&#xD558;&#xC5EC; <strong>&#xBD88;&#xD544;&#xC694;&#xD55C; &#xC5C5;&#xB370;&#xC774;&#xD2B8;&#xB97C; &#xC904;&#xC774;&#xACE0;, &#xB80C;&#xB354;&#xB9C1; &#xC18D;&#xB3C4;&#xB97C; &#xC62C;&#xB824;&#xC90D;&#xB2C8;&#xB2E4;.</strong></p>
 <p>&#xA0;</p>
 <h3 id="&#xAC00;&#xC0C1;-dom&#xC744;-&#xB80C;&#xB354;&#xB9C1;&#xD558;&#xB294;-&#xACFC;&#xC815;">&#xAC00;&#xC0C1; DOM&#xC744; &#xB80C;&#xB354;&#xB9C1;&#xD558;&#xB294; &#xACFC;&#xC815;</h3>
@@ -368,57 +368,57 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"3. 가상 DOM이란?","level":"1.2.3","depth":2,"next":{"title":"4. SSR & CSR","level":"1.2.4","depth":2,"path":"_posts/react_study/2023-02-14-ssr-csr.md","ref":"./_posts/react_study/2023-02-14-ssr-csr.md","articles":[]},"previous":{"title":"2. JSX란?","level":"1.2.2","depth":2,"path":"_posts/react_study/2023-02-12-jsx.md","ref":"./_posts/react_study/2023-02-12-jsx.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters","comment","hide-published-with","github","livereload"],"pluginsConfig":{"github":{"url":"https://github.com/velopert/react-tutorial"},"livereload":{},"search":{},"collapsible-chapters":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-published-with":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"comment":{"highlightCommented":true}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"_posts/react_study/2023-02-13-virtual-dom.md","mtime":"2023-02-16T08:15:40.850Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-02-16T08:21:33.824Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"3. 가상 DOM이란?","level":"1.2.3","depth":2,"next":{"title":"4. SSR & CSR","level":"1.2.4","depth":2,"path":"react_study/2023-02-14-ssr-csr.md","ref":"react_study/2023-02-14-ssr-csr.md","articles":[]},"previous":{"title":"2. JSX란?","level":"1.2.2","depth":2,"path":"react_study/2023-02-12-jsx.md","ref":"react_study/2023-02-12-jsx.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters","comment","hide-published-with","github","livereload"],"pluginsConfig":{"github":{"url":"https://github.com/xxdevbosa/blog"},"livereload":{},"search":{},"collapsible-chapters":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-published-with":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"comment":{"highlightCommented":true}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"react_study/2023-02-13-virtual-dom.md","mtime":"2023-02-16T08:32:08.201Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-02-16T08:21:33.824Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
 
         
-    <script src="../../gitbook/gitbook.js"></script>
-    <script src="../../gitbook/theme.js"></script>
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
     
         
-        <script src="../../gitbook/gitbook-plugin-collapsible-chapters/collapsible-chapters.js"></script>
-        
-    
-        
-        <script src="../../gitbook/gitbook-plugin-comment/plugin.js"></script>
+        <script src="../gitbook/gitbook-plugin-collapsible-chapters/collapsible-chapters.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-hide-published-with/plugin.js"></script>
+        <script src="../gitbook/gitbook-plugin-comment/plugin.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        <script src="../gitbook/gitbook-plugin-hide-published-with/plugin.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
         
     
 

@@ -4,7 +4,7 @@ DOM이란 **D**ocument* **O**bject **M**odel의 약자입니다. 문서 객체 �
 
 > 한마디로 문서 객체 모델은 문서 내의 모든 요소를 정의하고, 각각의 요소에 접근하는 방법을 제공합니다.
 
-![virtual_dom_1](../../images/virtual_dom_1.png)
+![virtual_dom_1](/images/virtual_dom_1.png)
 
 &nbsp;
 
@@ -36,7 +36,7 @@ DOM이란 **D**ocument* **O**bject **M**odel의 약자입니다. 문서 객체 �
 
 리액트에서 `가상 DOM`을 사용하는 이유는, `상태(State)`가 변했을 때 브라우저 전체가 아닌 기존의 DOM과 비교해서 달라진 부분만 변경하기 때문입니다.
 
-![virtual_dom_2](../assets/gitbook/images/virtual_dom_2.png)
+![virtual_dom_2](/images/virtual_dom_2.png)
 
 이러한 방식은 이전 UI 상태를 메모리에 유지한 체, 변경될 UI의 최소집합을 계산하여 필요한 부분만 교체하여 **불필요한 업데이트를 줄이고, 렌더링 속도를 올려줍니다.**
 
