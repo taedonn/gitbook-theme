@@ -4,7 +4,7 @@ title: 기록하는 개발자
 permalink: /
 ---
 
-![title_devbot](./assets/gitbook/images/title_devbot.png)
+![title_devbot](./assets/gitbook/images/title_xxdevbosa.gif)
 
 ### @xxDevBosa
 #프론트엔드 개발자 #ISTJ #서울 #게이머
