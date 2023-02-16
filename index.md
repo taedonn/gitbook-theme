@@ -1,13 +1,13 @@
 ---
 layout: home
-title: DEVBOT
+title: 기록하는 개발자
 permalink: /
 ---
 
-![title_devbot](/assets/gitbook/images/title_devbot.png)
+![title_devbot](./assets/gitbook/images/title_devbot.png)
 
 ### @xxDevBosa
-#프론트엔드 개발자 #ISTJ #서울 #게이머 #LOL
+#프론트엔드 개발자 #ISTJ #서울 #게이머
 
 깃허브 : \
 [https://github.com/xxdevbosa](https://github.com/xxdevbosa)

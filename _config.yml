@@ -1,6 +1,6 @@
 # Configurations
-title:            DEVBOT
-longtitle:        DEVBOT
+title:            기록하는 개발자
+longtitle:        기록하는 개발자
 author:           Tae Ho Lee
 email:            taeholee235.work@gmail.com
 description: >
@@ -22,11 +22,7 @@ toc:
   h_max: 3
 
 # customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
-<<<<<<< HEAD
-favicon_path:     /assets/gitbook/images/favicon.png
-=======
 favicon_path:     /assets/gitbook/images/favicon.ico
->>>>>>> parent of 6b417b2 (23.02.16)
 
 # markdown render engine.
 markdown:         kramdown
