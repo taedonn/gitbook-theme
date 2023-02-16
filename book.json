@@ -9,7 +9,11 @@
   "pluginsConfig": {
     "collapsible-chapters": {},
     "github": {
-      "url": "https://github.com/xxdevbosa/blog"
+      "url": "https://github.com/velopert/react-tutorial"
+    },
+    "edit-link": {
+      "base": "https://github.com/velopert/react-tutorial/edit/master",
+      "label": "수정 요청하기"
     }
   }
 }
