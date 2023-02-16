@@ -1,26 +1,16 @@
----
-title: 6. 컴포넌트
-author: Tae Ho Lee
-date: 2023-02-16
-category: react
-layout: post
----
-
 ## 컴포넌트?
-{: .fs-8 }
 
 리액트에게 화면에 표현하고 싶은 게 무엇인지 우리는 컴포넌트를 통해 알려줍니다. 리액트는 데이터가 변경될 때 기존 DOM 렌더링 방식과 다르게 가상 DOM을 활용해 컴포넌트를 더 효율적인 방식으로 화면에 렌더링합니다.
 
 &nbsp;
 
 ### 컴포넌트 단위 개발 (Component Based Development)
-{: .fs-6 }
 
-**리액트는 컴포넌트 단위로 개발해야 합니다.**{: .text-purple-000 } 컴포넌트는 사용자 입장에서는 HTML 요소와 크게 다르지 않습니다. `<div></div>`나 `<span></span>` 태그를 리액트 컴포넌트로 만든다고 했을 때, 컴포넌트 내부에서 `jsx` 문법을 사용해 HTML 요소를 return하여 만들 수 있습니다.
+**리액트는 컴포넌트 단위로 개발해야 합니다.** 컴포넌트는 사용자 입장에서는 HTML 요소와 크게 다르지 않습니다. `<div></div>`나 `<span></span>` 태그를 리액트 컴포넌트로 만든다고 했을 때, 컴포넌트 내부에서 `jsx` 문법을 사용해 HTML 요소를 return하여 만들 수 있습니다.
 
 &nbsp;
 
-**구현할 HTML 요소**{: .text-grey-dk-200 }
+**구현할 HTML 요소**
 
 ```html
 <div>Hello, Devbot</div>
@@ -28,7 +18,7 @@ layout: post
 
 &nbsp;
 
-**index.html**{: .text-grey-dk-200 }
+**index.html**
 
 > 리액트를 렌더링할 베이스 파일
 
@@ -51,7 +41,7 @@ layout: post
 
 &nbsp;
 
-**index.js**{: .text-grey-dk-200 }
+**index.js**
 
 > `index.html`에 렌더링할 리액트 최상위 컴포넌트
 
@@ -87,7 +77,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 &nbsp;
 
-**App.js**{: .text-grey-dk-200 }
+**App.js**
 
 > index.js에 넣을 컴포넌트
 
@@ -114,7 +104,7 @@ import Hello from './Hello';
 
 &nbsp;
 
-**Hello.js**{: .text-grey-dk-200 }
+**Hello.js**
 
 > App.js에 넣을 컴포넌트
 
@@ -179,18 +169,17 @@ function App() {
 </>
 ```
 
-`<></>` 태그로 감싼 이유는 **'반드시 하나의 부모요소가 감싸는 형태여야 한다'**{: .text-purple-000 }는 JSX 문법 때문입니다. 위처럼 빈 태그를 넣어도 되고, `<div></div>`나 `<span></span>` 등 기존 HTML 태그를 넣어도 됩니다.
+`<></>` 태그로 감싼 이유는 **'반드시 하나의 부모요소가 감싸는 형태여야 한다'**는 JSX 문법 때문입니다. 위처럼 빈 태그를 넣어도 되고, `<div></div>`나 `<span></span>` 등 기존 HTML 태그를 넣어도 됩니다.
 
 &nbsp;
 
 ### 컴포넌트 스타일링
-{: .fs-6 }
 
 컴포넌트는 CSS를 이용해 스타일링 할 수 있습니다.
 
 &nbsp;
 
-**Hello.js**{: .text-grey-dk-200 }
+**Hello.js**
 
 ```jsx
 import React from 'react';
@@ -207,7 +196,7 @@ export default Hello;
 
 &nbsp;
 
-**Hello.css**{: .text-grey-dk-200 }
+**Hello.css**
 
 ```css
 .hello {
@@ -240,7 +229,6 @@ import './Hello.css';
 &nbsp;
 
 ## Reference
-{: .fs-8 }
 
 - [[React] React 기본 개념](https://velog.io/@kim-jaemin420/React-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90)
 
