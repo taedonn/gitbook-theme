@@ -1,9 +1,25 @@
 {
   "name": "docs",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+    "graceful-fs": "4.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xxdevbosa/blog.git"
+  },
+  "author": "Tae Ho Lee <taeholee235.work@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "gitbook-plugin-edit-link": "^2.0.2"
+    "gitbook-plugin-edit-link": "^2.0.2",
+    "grunt": "^0.4.1",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-gh-pages": "^0.9.1",
+    "grunt-gitbook": "^0.4.2",
+    "grunt-http-server": "^0.0.4"
   }
 }
