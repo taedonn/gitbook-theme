@@ -5,9 +5,12 @@ permalink: /
 ---
 
 ![title_devbot](./assets/gitbook/images/title_xxdevbosa.gif)
+(출처 : @mfrezz)
+
+&nbsp;
 
 ### @xxDevBosa
-#프론트엔드 개발자 #ISTJ #서울 #게이머
+#프론트엔드 #개발자 #ISTJ #서울 #게이머
 
 깃허브 : \
 [https://github.com/xxdevbosa](https://github.com/xxdevbosa)
@@ -17,6 +20,8 @@ permalink: /
 
 포트폴리오 : \
 [https://xxdevbosa.github.io/vision](https://xxdevbosa.github.io/vision)
+
+&nbsp;
 
 <script src="https://utteranc.es/client.js"
         repo="xxdevbosa/blog"
