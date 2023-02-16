@@ -66,12 +66,3 @@ DOM이란 **D**ocument* **O**bject **M**odel의 약자입니다. 문서 객체 �
 - [[React] DOM의 개념](http://www.tcpschool.com/javascript/js_dom_concept)
 
 &nbsp;
-
-<script src="https://utteranc.es/client.js"
-        repo="xxdevbosa/blog"
-        issue-term="pathname"
-        label="blog"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>

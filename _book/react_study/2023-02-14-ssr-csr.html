@@ -21,10 +21,6 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-comment/plugin.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
                 
             
@@ -336,9 +332,21 @@
 <li><a href="https://proglish.tistory.com/216" target="_blank">[React] SSR&#xACFC; CSR&#xC758; &#xCC28;&#xC774;</a></li>
 <li><a href="https://velog.io/@zihs0822/SEO-SSR-CSR%EC%9D%98-%EA%B0%9C%EB%85%90%EA%B3%BC-%EC%9D%98%EB%AF%B8" target="_blank">[React] SEO, SSR, CSR&#xC758; &#xAC1C;&#xB150;&#xACFC; &#xC758;&#xBBF8;</a></li>
 </ul>
-<p>&#xA0;</p>
-<script src="https://utteranc.es/client.js" repo="xxdevbosa/blog" issue-term="pathname" label="blog" theme="github-light" crossorigin="anonymous" async>
-</script>
+<p>&#xA0;<script>
+      function attachComments() {
+        const el = document.querySelector('.markdown-section');
+        if (!el) return;
+        const script = document.createElement('script');
+        script.src = 'https://utteranc.es/client.js';
+        script.setAttribute('repo', 'xxdevbosa/blog');
+        script.setAttribute('issue-term', 'title');
+        script.setAttribute('crossorigin', 'anonymous');
+        script.setAttribute('label', 'comments');
+        el.appendChild(script);
+      }
+      setTimeout(attachComments, 100);
+    </script></p>
+
                                 
                                 </section>
                             
@@ -381,7 +389,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"4. SSR & CSR","level":"1.2.4","depth":2,"next":{"title":"5. 개발 환경 세팅하기","level":"1.2.5","depth":2,"path":"react_study/2023-02-15-build.md","ref":"react_study/2023-02-15-build.md","articles":[]},"previous":{"title":"3. 가상 DOM이란?","level":"1.2.3","depth":2,"path":"react_study/2023-02-13-virtual-dom.md","ref":"react_study/2023-02-13-virtual-dom.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters","comment","hide-published-with","github","livereload"],"pluginsConfig":{"github":{"url":"https://github.com/xxdevbosa/blog"},"livereload":{},"search":{},"collapsible-chapters":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-published-with":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"comment":{"highlightCommented":true}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"react_study/2023-02-14-ssr-csr.md","mtime":"2023-02-16T08:32:19.112Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-02-16T08:21:33.824Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"4. SSR & CSR","level":"1.2.4","depth":2,"next":{"title":"5. 개발 환경 세팅하기","level":"1.2.5","depth":2,"path":"react_study/2023-02-15-build.md","ref":"react_study/2023-02-15-build.md","articles":[]},"previous":{"title":"3. 가상 DOM이란?","level":"1.2.3","depth":2,"path":"react_study/2023-02-13-virtual-dom.md","ref":"react_study/2023-02-13-virtual-dom.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters","comment","hide-published-with","github","livereload"],"pluginsConfig":{"github":{"url":"https://github.com/xxdevbosa/blog"},"livereload":{},"search":{},"collapsible-chapters":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-published-with":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"comment":{"highlightCommented":true}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"react_study/2023-02-14-ssr-csr.md","mtime":"2023-02-16T08:42:37.902Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-02-16T08:36:12.352Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -392,10 +400,6 @@
     
         
         <script src="../gitbook/gitbook-plugin-collapsible-chapters/collapsible-chapters.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-comment/plugin.js"></script>
         
     
         

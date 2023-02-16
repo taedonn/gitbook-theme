@@ -233,12 +233,3 @@ import './Hello.css';
 - [[React] React 기본 개념](https://velog.io/@kim-jaemin420/React-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90)
 
 &nbsp;
-
-<script src="https://utteranc.es/client.js"
-        repo="xxdevbosa/blog"
-        issue-term="pathname"
-        label="blog"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>

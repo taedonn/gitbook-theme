@@ -19,12 +19,3 @@
 [https://xxdevbosa.github.io/vision](https://xxdevbosa.github.io/vision)
 
 &nbsp;
-
-<script src="https://utteranc.es/client.js"
-        repo="xxdevbosa/blog"
-        issue-term="pathname"
-        label="blog"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>

@@ -84,3 +84,5 @@ MVC 패턴은 매우 효율적인 방식이지만, 규모가 커질수록 컨트
 - [[React] React 기본 개념](https://velog.io/@kim-jaemin420/React-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90)
 - [[React] 페이스북은 왜 리액트를 만들었을까](https://velog.io/@sunaaank/why-facebook-makes-react)
 - [[React] 안녕, 리액트(Hello, React)](https://blog.gaerae.com/2016/04/hello-react.html)
+
+&nbsp;
