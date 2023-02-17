@@ -6,6 +6,7 @@
     "type": "git",
     "url": "https://github.com/xxdevbosa/blog.git"
   },
+  "homepage": "https://xxdevbosa.github.io/resume",
   "scripts": {
     "predeploy": "gitbook build",
     "deploy": "git commit -a -m \"Update docs\" && git push origin gh-pages"
