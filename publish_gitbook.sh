@@ -4,12 +4,6 @@ git checkout main
 # gitbook 의존 파일을 설치하고 gitbook 빌드를 돌린다.
 gitbook build
 
-# main에 스테이징
-git add .
-
-# main에 커밋
-git commit -a -m "Update gitbook"
-
 # gh-pages로 접근
 git checkout gh-pages
 
@@ -24,3 +18,6 @@ git subtree push --prefix _book origin gh-pages
 
 # 다시 master 브랜치로 돌아온다.
 git checkout main
+
+# main에 스테이징된 파일 푸시
+git push origin main
