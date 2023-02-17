@@ -1,10 +1,13 @@
-# 다시 master 브랜치로 돌아온다.
+# main 브랜치로 접근
 git checkout main
 
 # gitbook 의존 파일을 설치하고 gitbook 빌드를 돌린다.
 gitbook build
 
-# gh-pages에 커밋
+# main에 스테이징
+git add .
+
+# main에 커밋
 git commit -a -m "Update gitbook"
 
 # gh-pages로 접근
