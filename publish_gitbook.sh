@@ -1,5 +1,5 @@
 # 다시 master 브랜치로 돌아온다.
-git checkout master
+git checkout main
 
 # gitbook 의존 파일을 설치하고 gitbook 빌드를 돌린다.
 gitbook build
@@ -20,4 +20,4 @@ git commit -a -m "Update gitbook"
 git subtree push --prefix _book origin gh-pages
 
 # 다시 master 브랜치로 돌아온다.
-git checkout master
+git checkout main
