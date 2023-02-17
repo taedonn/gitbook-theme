@@ -9,7 +9,7 @@ git add .
 git commit -m "Update gitbook"
 
 # gh-pages 브랜치에 _book 파일 푸시
-git subtree push --prefix dist origin gh-pages
+git subtree push --prefix _book origin gh-pages
 
 # 다시 master 브랜치로 돌아온다.
 git checkout master
