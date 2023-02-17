@@ -1,4 +1,4 @@
-## 리액트는 왜 만들어졌을까?
+# 리액트는 왜 만들어졌을까?
 
 리액트는 페이스북에서 만든 자바스크립트 기반 라이브러리다. 리액트는 `컴포넌트`라고 하는 독립적인 UI 파편을 만들고, 만들어진 컴포넌트를 조합하여 하나의 뷰를 만든다.
 
@@ -8,9 +8,7 @@
 
 &nbsp;
 
-## 리액트의 특징
-
-### 1. 단방향 데이터 흐름 (Unidirectional Data Flow)
+### 특징 1. 단방향 데이터 흐름 (Unidirectional Data Flow)
 
 ![단방향 데이터 흐름](/images/react_start_1.png)<br>
 (출처 : https://brocoders.com/blog/vue-vs-react/)
@@ -21,7 +19,7 @@
 
 &nbsp;
 
-### 2. JSX (JavaScript XML)
+### 특징 2. JSX (JavaScript XML)
 
 ![JSX](/images/react_start_2.png)<br>
 (출처 : https://velog.io/@nrudev/JSX)
@@ -32,7 +30,7 @@
 
 &nbsp;
 
-### 3. 가상 DOM (Virtual DOM)
+### 특징 3. 가상 DOM (Virtual DOM)
 
 ![가상 DOM](/images/virtual_dom_2.png)<br>
 (출처 : https://brocoders.com/blog/vue-vs-react/)
