@@ -8,7 +8,7 @@
   },
   "scripts": {
     "predeploy": "gitbook build",
-    "deploy": "git commit -a -m 'Update docs' && git push origin gh-pages"
+    "deploy": "git commit -a -m \"Update docs\" && git push origin gh-pages"
   },
   "author": "Tae Ho Lee <taeholee235.work@gmail.com>",
   "license": "MIT",
