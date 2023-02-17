@@ -4,8 +4,10 @@ gitbook build
 # gh-pages로 접근
 git checkout gh-pages
 
-# 커밋
+# 스테이징
 git add .
+
+# 커밋
 git commit -m "Update gitbook"
 
 # gh-pages 브랜치에 _book 파일 푸시
