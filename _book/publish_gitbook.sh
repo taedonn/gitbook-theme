@@ -1,13 +1,16 @@
 # gitbook 의존 파일을 설치하고 gitbook 빌드를 돌린다.
 gitbook build
 
+# master에 커밋
+git commit -a -m "Update gitbook"
+
 # gh-pages로 접근
 git checkout gh-pages
 
-# 스테이징
+# gh-pages에 스테이징
 git add .
 
-# 커밋
+# gh-pages에 커밋
 git commit -a -m "Update gitbook"
 
 # gh-pages 브랜치에 _book 파일 푸시
