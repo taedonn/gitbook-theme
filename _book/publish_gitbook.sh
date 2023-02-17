@@ -8,7 +8,7 @@ git checkout gh-pages
 git add .
 
 # 커밋
-git commit -m "Update gitbook"
+git commit -a -m "Update gitbook"
 
 # gh-pages 브랜치에 _book 파일 푸시
 git subtree push --prefix _book origin gh-pages
