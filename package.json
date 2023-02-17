@@ -6,10 +6,6 @@
     "type": "git",
     "url": "https://github.com/xxdevbosa/blog"
   },
-  "scripts": {
-    "predeploy": "gitbook build",
-    "deploy": "git commit -a -m \"Update docs\" && git push origin gh-pages"
-  },
   "author": "Tae Ho Lee <taeholee235.work@gmail.com>",
   "license": "MIT",
   "dependencies": {
