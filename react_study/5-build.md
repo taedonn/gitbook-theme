@@ -4,7 +4,7 @@
 
 하지만 리액트를 설치하기전에, 먼저 `Node.js`라는 프로그램을 설치해야한다.
 
- &nbsp;
+&nbsp;
 
 ## Node.js 알아보기
 
@@ -19,13 +19,13 @@
 - 논블로킹 (Non-Blocking)
 - 싱글 스레드 (Single Thread)
 
- &nbsp;
+&nbsp;
 
 ### 자바스크립트 런타임
 
 런타임은 **특정 언어를 실행할 수 있는 환경**을 뜻한다. 대표적인 자바스크립트 런타임은 `Chrome`, `Safafi`같은 웹 브라우저들이다.
 
- &nbsp;
+&nbsp;
 
 ### 이벤트 기반 프로그래밍
 
@@ -34,12 +34,59 @@
 ![dev_setting_1](/images/dev_setting_1.png)<br>
 (출처 : https://umbum.dev/913)
 
- &nbsp;
+&nbsp;
 
 ### 논 블로킹
 
-논 블로킹은 비동기 방식으로 이벤트를 처리한다는 뜻이다. 비동기는 이전 작업이 완료될때가지 대기하지않고 동시에 작업을 수행한다.
+논 블로킹은 **비동기 방식으로 이벤트를 처리**한다는 뜻이다. 비동기는 이전 작업이 완료될때가지 대기하지않고 동시에 작업을 수행한다.
 
 ![dev_setting_2](/images/dev_setting_2.png)<br>
+(출처 : https://velog.io/@dorazi/Asynchronous-VS-Synchronous)
+
+&nbsp;
+
+### 동기적 처리 예시
+
+input
+
+```js
+console.log("1st");
+console.log("2nd");
+console.log("3rd");
+```
+
+output
+
+```console
+1st
+2nd
+3rd
+```
+
+&nbsp;
+
+### 비동기적 처리 예시
+
+input
+
+```js
+console.log("1st");
+setTimeout(() => {
+    console.log("2nd");
+},0);
+console.log("3rd");
+```
+
+output
+
+```console
+1st
+3rd
+2nd
+```
+
+&nbsp;
+
+`setTimeout()` 함수의 지연시간이 0이기 때문에 1st, 2nd, 3rd 순으로 찍힐거라 예상하겠지만, 의외로 1st, 3rd, 2nd가 찍혔다. 이유는 **비동기적 코드는 동기적 코드가 전부 실행되고나면 실행되기 때문**이다.
 
 &nbsp;
