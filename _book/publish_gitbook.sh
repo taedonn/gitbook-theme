@@ -1,14 +1,11 @@
-# gh-pages로 접근
-git checkout gh-pages
-
-# gh-pages 풀
-git pull origin gh-pages
-
 # main 브랜치로 접근
 git checkout main
 
 # gitbook 빌드
 gitbook build
+
+# gh-pages로 접근
+git checkout gh-pages
 
 # gh-pages에 모든 변경사항 스테이징
 git add .
