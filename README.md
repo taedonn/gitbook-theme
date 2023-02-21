@@ -17,4 +17,7 @@
 포트폴리오 : 
 [https://xxdevbosa.github.io/vision](https://xxdevbosa.github.io/vision)
 
+블로그 : 
+[https://xxdevbosa.github.io/blog](https://xxdevbosa.github.io/blog)
+
 &nbsp;
