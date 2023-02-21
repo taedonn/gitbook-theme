@@ -41,6 +41,5 @@
 논 블로킹은 비동기 방식으로 이벤트를 처리한다는 뜻이다. 비동기는 이전 작업이 완료될때가지 대기하지않고 동시에 작업을 수행한다.
 
 ![dev_setting_2](/images/dev_setting_2.png)<br>
-(출처 : https://hi-zini.tistory.com/m/entry/%EB%B9%84%EB%8F%99%EA%B8%B0-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
 
 &nbsp;
