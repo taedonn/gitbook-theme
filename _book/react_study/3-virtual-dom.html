@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="2023-02-14-ssr-csr.html" />
+    <link rel="next" href="4-ssr-csr.html" />
     
     
-    <link rel="prev" href="2023-02-12-jsx.html" />
+    <link rel="prev" href="2-jsx.html" />
     
 
     </head>
@@ -120,9 +120,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1" data-path="2023-02-11-react-start.html">
+        <li class="chapter " data-level="1.2.1" data-path="1-react-start.html">
             
-                <a href="2023-02-11-react-start.html">
+                <a href="1-react-start.html">
             
                     
                     1. 리액트는 왜 만들어졌을까?
@@ -133,9 +133,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2" data-path="2023-02-12-jsx.html">
+        <li class="chapter " data-level="1.2.2" data-path="2-jsx.html">
             
-                <a href="2023-02-12-jsx.html">
+                <a href="2-jsx.html">
             
                     
                     2. JSX 알아보기
@@ -146,9 +146,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2.3" data-path="2023-02-13-virtual-dom.html">
+        <li class="chapter active" data-level="1.2.3" data-path="3-virtual-dom.html">
             
-                <a href="2023-02-13-virtual-dom.html">
+                <a href="3-virtual-dom.html">
             
                     
                     3. 가상 DOM 알아보기
@@ -159,9 +159,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.4" data-path="2023-02-14-ssr-csr.html">
+        <li class="chapter " data-level="1.2.4" data-path="4-ssr-csr.html">
             
-                <a href="2023-02-14-ssr-csr.html">
+                <a href="4-ssr-csr.html">
             
                     
                     4. SSR과 CSR 비교하기
@@ -172,9 +172,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.5" data-path="2023-02-15-build.html">
+        <li class="chapter " data-level="1.2.5" data-path="5-build.html">
             
-                <a href="2023-02-15-build.html">
+                <a href="5-build.html">
             
                     
                     5. 개발 환경 세팅하기
@@ -185,9 +185,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.6" data-path="2023-02-16-component.html">
+        <li class="chapter " data-level="1.2.6" data-path="6-component.html">
             
-                <a href="2023-02-16-component.html">
+                <a href="6-component.html">
             
                     
                     6. 컴포넌트
@@ -288,7 +288,7 @@
 </ol>
 <p>&#xA0;</p>
 <h3 id="&#xAC00;&#xC0C1;-dom&#xC758;-&#xB2E8;&#xC810;">&#xAC00;&#xC0C1; DOM&#xC758; &#xB2E8;&#xC810;</h3>
-<p>&#xAC00;&#xC0C1; DOM&#xC740; &#xB300;&#xBD80;&#xBD84;&#xC758; &#xACBD;&#xC6B0; &#xC2E4;&#xC81C; DOM&#xBCF4;&#xB2E4; &#xBE60;&#xB974;&#xC9C0;&#xB9CC;, &#xD56D;&#xC0C1; &#xBE60;&#xB978;&#xAC83;&#xC740; &#xC544;&#xB2C8;&#xB2E4;. &#xC870;&#xADF8;&#xB9CC; &#xBCC0;&#xD654;&#xC5D0;&#xB3C4; &#xBC18;&#xC751;&#xD558;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xCD5C;&#xC801;&#xD654;&#xAC00; &#xB418;&#xC5B4;&#xC788;&#xC9C0; &#xC54A;&#xC73C;&#xBA74; &#xC624;&#xD788;&#xB824; &#xC2E4;&#xC81C; DOM&#xBCF4;&#xB2E4; &#xB290;&#xB824;&#xC9C8;&#xC218;&#xB3C4; &#xC788;&#xB2E4;. &#xC774;&#xB7F0; &#xD604;&#xC0C1;&#xC744; <code>&#xC624;&#xBC84;&#xD5E4;&#xB4DC;</code>&#xAC00; &#xD06C;&#xB2E4;&#xB77C;&#xACE0; &#xD55C;&#xB2E4;. &#xAC00;&#xC131;&#xBE44;&#xAC00; &#xC548;&#xB9DE;&#xB294;&#xB2E4;&#xB294; &#xB73B;&#xC774;&#xB2E4;. &#xC608;&#xB97C; &#xB4E4;&#xC5B4; &#xAECC; &#xD558;&#xB098;&#xB97C; &#xC0AC;&#xB7EC; &#xBA40;&#xB9AC; &#xB5A8;&#xC5B4;&#xC9C4; &#xB9C8;&#xD2B8;&#xB97C; &#xAC14;&#xC744; &#xB54C; &#xC624;&#xBC84;&#xD5E4;&#xB4DC;&#xAC00; &#xD06C;&#xB2E4;&#xB294; &#xD45C;&#xD604;&#xC744; &#xC4F8; &#xC218; &#xC788;&#xB2E4;. &#xACB0;&#xACFC;&#xC5D0; &#xBE44;&#xD574; &#xB4E4;&#xC774;&#xB294; &#xB178;&#xB825;&#xC774; &#xB108;&#xBB34; &#xD06C;&#xAE30; &#xB54C;&#xBB38;&#xC774;&#xB2E4;. &#xC774;&#xB7F0; &#xD604;&#xC0C1;&#xC744; &#xBC29;&#xC9C0;&#xD558;&#xAE30;&#xC704;&#xD574; &#xB9AC;&#xC561;&#xD2B8;&#xC5D0;&#xC11C;&#xB294; <code>shouldComponentUpdate</code>&#xB098; <code>useCallback</code>&#xAC19;&#xC740; &#xD568;&#xC218;&#xB97C; &#xC0AC;&#xC6A9;&#xD574; &#xCD5C;&#xC801;&#xD654;&#xB97C; &#xD55C;&#xB2E4;.</p>
+<p>&#xAC00;&#xC0C1; DOM&#xC740; &#xB300;&#xBD80;&#xBD84;&#xC758; &#xACBD;&#xC6B0; &#xC2E4;&#xC81C; DOM&#xBCF4;&#xB2E4; &#xBE60;&#xB974;&#xC9C0;&#xB9CC;, &#xD56D;&#xC0C1; &#xBE60;&#xB978;&#xAC83;&#xC740; &#xC544;&#xB2C8;&#xB2E4;. &#xC870;&#xADF8;&#xB9CC; &#xBCC0;&#xD654;&#xC5D0;&#xB3C4; &#xBC18;&#xC751;&#xD558;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xCD5C;&#xC801;&#xD654;&#xAC00; &#xB418;&#xC5B4;&#xC788;&#xC9C0; &#xC54A;&#xC73C;&#xBA74; &#xC624;&#xD788;&#xB824; &#xC2E4;&#xC81C; DOM&#xBCF4;&#xB2E4; &#xB290;&#xB824;&#xC9C8;&#xC218;&#xB3C4; &#xC788;&#xB2E4;. &#xC774;&#xB7F0; &#xD604;&#xC0C1;&#xC744; <code>&#xC624;&#xBC84;&#xD5E4;&#xB4DC;</code>&#xAC00; &#xD06C;&#xB2E4;&#xB77C;&#xACE0; &#xD55C;&#xB2E4;. &#xAC00;&#xC131;&#xBE44;&#xAC00; &#xC548;&#xB9DE;&#xB294;&#xB2E4;&#xB294; &#xB73B;&#xC774;&#xB2E4;. &#xC608;&#xB97C; &#xB4E4;&#xC5B4; &#xAECC; &#xD558;&#xB098;&#xB97C; &#xC0AC;&#xB7EC; &#xBA40;&#xB9AC; &#xB5A8;&#xC5B4;&#xC9C4; &#xB9C8;&#xD2B8;&#xB97C; &#xAC14;&#xC744; &#xB54C; &#xC624;&#xBC84;&#xD5E4;&#xB4DC;&#xAC00; &#xD06C;&#xB2E4;&#xB294; &#xD45C;&#xD604;&#xC744; &#xC4F8; &#xC218; &#xC788;&#xB2E4;. &#xACB0;&#xACFC;&#xC5D0; &#xBE44;&#xD574; &#xB4E4;&#xC774;&#xB294; &#xB178;&#xB825;&#xC774; &#xB108;&#xBB34; &#xD06C;&#xAE30; &#xB54C;&#xBB38;&#xC774;&#xB2E4;. &#xC774;&#xB7F0; &#xD604;&#xC0C1;&#xC744; &#xBC29;&#xC9C0;&#xD558;&#xAE30;&#xC704;&#xD574; &#xB9AC;&#xC561;&#xD2B8;&#xC5D0;&#xC11C;&#xB294; <code>shouldComponentUpdate</code>&#xB098; <code>useCallback</code>&#xAC19;&#xC740; &#xD568;&#xC218;&#xB97C; &#xC368;&#xC11C; &#xCD5C;&#xC801;&#xD654;&#xB97C; &#xD55C;&#xB2E4;.</p>
 <p>&#xA0;</p>
 <h2 id="reference">Reference</h2>
 <ul>
@@ -336,12 +336,12 @@
 
             
                 
-                <a href="2023-02-12-jsx.html" class="navigation navigation-prev " aria-label="Previous page: 2. JSX 알아보기">
+                <a href="2-jsx.html" class="navigation navigation-prev " aria-label="Previous page: 2. JSX 알아보기">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="2023-02-14-ssr-csr.html" class="navigation navigation-next " aria-label="Next page: 4. SSR과 CSR 비교하기">
+                <a href="4-ssr-csr.html" class="navigation navigation-next " aria-label="Next page: 4. SSR과 CSR 비교하기">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -352,7 +352,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"3. 가상 DOM 알아보기","level":"1.2.3","depth":2,"next":{"title":"4. SSR과 CSR 비교하기","level":"1.2.4","depth":2,"path":"react_study/2023-02-14-ssr-csr.md","ref":"react_study/2023-02-14-ssr-csr.md","articles":[]},"previous":{"title":"2. JSX 알아보기","level":"1.2.2","depth":2,"path":"react_study/2023-02-12-jsx.md","ref":"react_study/2023-02-12-jsx.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters","comment","hide-published-with","github"],"pluginsConfig":{"github":{"url":"https://github.com/xxdevbosa/blog"},"search":{},"collapsible-chapters":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-published-with":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"comment":{"highlightCommented":true}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"react_study/2023-02-13-virtual-dom.md","mtime":"2023-02-20T04:51:06.121Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-02-20T04:55:59.647Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"3. 가상 DOM 알아보기","level":"1.2.3","depth":2,"next":{"title":"4. SSR과 CSR 비교하기","level":"1.2.4","depth":2,"path":"react_study/4-ssr-csr.md","ref":"react_study/4-ssr-csr.md","articles":[]},"previous":{"title":"2. JSX 알아보기","level":"1.2.2","depth":2,"path":"react_study/2-jsx.md","ref":"react_study/2-jsx.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters","comment","hide-published-with","github"],"pluginsConfig":{"github":{"url":"https://github.com/xxdevbosa/blog"},"search":{},"collapsible-chapters":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-published-with":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"comment":{"highlightCommented":true}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"react_study/3-virtual-dom.md","mtime":"2023-02-21T01:14:29.070Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-02-21T05:02:59.176Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
