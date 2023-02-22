@@ -7,7 +7,7 @@
 **구현할 HTML 요소**
 
 ```html
-<div>Hello, DevBosa</div>
+<div>Hello, DevBot</div>
 ```
 
 &nbsp;
