@@ -1,0 +1,233 @@
+# JSX 알아보기
+
+JSX는 JavaScript XML의 약자로, 리액트 컴포넌트의 독립화에 최적화된 언어다. JSX는 XML에 코딩하는 것처럼 HTML 코드를 JS 파일에 넣을 수 있다. 이러면 별도의 HTML 파일 호출 없이, **하나의 JS 파일로 하나의 컴포넌트를 완전히 구현**할 수 있다.
+
+> JSX는 리액트의 개발을 위해 만든 언어이기 때문에, 리액트와 마찬가지로 공식 자바스크립트 문법이 아니다.
+
+&nbsp;
+
+### 문법 1. 카멜 케이스(Camel Case) 네이밍 규칙을 사용한다.
+
+JSX에서는 데이터가 객체로 전달되기 때문에 HTML 대신 카멜 케이스 네이밍 규칙을 사용한다.
+
+```js
+// background-color => backgroundColor
+// font-size => fontSize
+```
+
+&nbsp;
+
+**변수에 저장해서 사용할 때**
+
+```jsx
+function App() {
+    const style = {
+        backgroundColor: "green",
+        fontSize: "12px"
+    }
+    return (
+        <div style={style}>Hello, DevBot</div>
+    );
+}
+```
+
+&nbsp;
+
+**JSX 내부에서 사용할 때**
+
+```jsx
+function App() {
+    return (
+        <div style={backgroundColor,"green"}>Hello, DevBot</div>
+    );
+}
+```
+
+&nbsp;
+
+| HTML           | JSX                  | 
+|:---------------|:---------------------| 
+| `class`        | `className`          | 
+| `for`          | `htmlFor`            | 
+| `checked`      | `defaultChecked`     | 
+
+&nbsp;
+
+### 문법 2. 반드시 하나의 부모 요소가 감싸는 형태여야 한다.
+
+가상 DOM에서 컴포넌트의 변화를 효율적으로 비교할 수 있게 컴포넌트 내부는 하나의 DOM 트리 구조로 이루어져야 한다는 규칙이 있다.
+
+&nbsp;
+
+**에러 케이스**
+
+```jsx
+/* 
+Failed to compile
+parsing error : adjacent JSX elements be wrapped in an enclosing tag
+Did you want a JSX fragment <>...</>? 
+*/
+
+function App() {
+    return (
+        <div>Hello</div>
+        <div>I am Tae Lee</div>
+    );
+}
+```
+
+&nbsp;
+
+**정상 케이스**
+
+```jsx
+function App() {
+    return (
+        <>
+            <div>Hello</div>
+            <div>I am Tae Lee</div>
+        </>
+    );
+}
+```
+
+&nbsp;
+
+### 문법 3. 자바스크립트 표현식을 사용할 수 있다.
+
+JSX 내부에서 자바스크립트 코드를 {}로 감싸주면 된다.
+
+```jsx
+function App() {
+    const name = "DevBot";
+    return (
+        <>
+            <div>Hello, I am {name}</div>
+        </>
+    );
+}
+```
+
+&nbsp;
+
+### 문법 4. if문 대신 삼항연산자를 사용한다.
+
+JSX 내부에서는 if문 대신 삼항연산자를 사용한다. 왜 그런지 찾아보니 if문이 자바스크립트 표현식이 아니어서라고 한다. if문이 표현식이 아닌 이유는 **표현식은 그 자체로 값을 가지거나, 어떤 것에 값을 할당하는 것**이어야 되는데, if문은 조건은 만들지만 결과를 특정하지는 않기 때문이라고 이해했다.
+
+&nbsp;
+
+**JSX 외부에서 사용**
+
+```jsx
+function App() {
+    let name = "";
+    const loginYN;
+    if (loginYN == "Y") { intro = <div>Tae Lee 입니다.</div> }
+    else { intro = <div>비회원 입니다.</div> }
+    return (
+        <div>{intro}</div>  
+    );
+}
+```
+
+&nbsp;
+
+**JSX 내부에서 사용**
+
+```jsx
+function App() {
+    const loginYN;
+    return (
+        <div>
+            { loginYN == "Y" ? 
+            ( <div>Tae Lee 입니다.</div> ) : 
+            ( <div>비회원 입니다.</div> )}
+        </div>
+    );
+}
+```
+
+&nbsp;
+
+**연산자 사용**
+
+```jsx
+// 조건이 만족되지 않을 경우 아무것도 노출되지 않는다.
+
+function App() {
+    const loginYN;
+    return (
+        <div>
+            { loginYN == "Y" && <div>이태호 입니다.</div> }
+        </div>
+    );
+}
+```
+
+&nbsp;
+
+**즉시실행함수 사용**
+
+```jsx
+function App() {
+    const loginYN;
+    return (
+        <div>
+            {(() => {
+                if (loginYN == "Y") {return (<div>Tae Lee 입니다.</div>)}
+                else { return (<div>비회원 입니다.</div>) }
+            })()}
+        </div>);
+}
+```
+
+&nbsp;
+
+### 문법 5. 자바스크립트 주석 표현 방식을 사용한다.
+
+자바스크립트 주석 표현 방식과 동일하게 사용한다. 자바스크립트 문법이기 때문에 겉을 {}로 감싸줘야 한다.
+
+&nbsp;
+
+**한줄일 때**
+
+```jsx
+function App() {
+    return (
+        <>
+            {/* 주석 내용 여기 */}
+        </>
+    );
+}
+```
+
+&nbsp;
+
+**두줄 이상일 때**
+
+```jsx
+function App() {
+    return (
+        <>
+            {
+                // 주석 내용 여기
+                // 주석 내용 여기
+            }
+            {
+                /* 
+                    주석 내용 여기
+                    주석 내용 여기 
+                */
+            }
+        </>
+    );
+}
+```
+
+&nbsp;
+
+## Reference
+
+- [JSX란? (정의,장점,문법)](https://goddaehee.tistory.com/296)
+
+&nbsp;

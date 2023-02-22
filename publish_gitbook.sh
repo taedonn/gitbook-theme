@@ -14,7 +14,7 @@ git add .
 git commit -a -m "Update gitbook"
 
 # gh-pages에 _book 파일 푸시
-git subtree push --prefix _book origin gh-pages
+git subtree push --prefix _book gh-pages
 
 # 다시 master 브랜치로 돌아온다.
 git checkout main
