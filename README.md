@@ -5,19 +5,19 @@
 
 &nbsp;
 
-### @xxDevBosa
+### @taedonn
 ##### #프론트엔드 #개발자 #ISTJ #서울 #게이머
 
 깃허브 : 
-[https://github.com/xxdevbosa](https://github.com/xxdevbosa)
+[https://github.com/xxdevbosa](https://github.com/taedonn)
 
 이력서 : 
-[https://xxdevbosa.github.io/resume](https://xxdevbosa.github.io/resume)
+[https://taedonn.github.io/resume](https://taedonn.github.io/resume)
 
 포트폴리오 : 
-[https://xxdevbosa.github.io/vision](https://xxdevbosa.github.io/vision)
+[https://taedonn.github.io/vision](https://taedonn.github.io/portfolio)
 
 블로그 : 
-[https://xxdevbosa.github.io/blog](https://xxdevbosa.github.io/blog)
+[https://taedonn.github.io/blog](https://taedonn.github.io/blog)
 
 &nbsp;
