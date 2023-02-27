@@ -9,7 +9,7 @@
 ##### #프론트엔드 #개발자 #ISTJ #서울 #게이머
 
 깃허브 : 
-[https://github.com/xxdevbosa](https://github.com/taedonn)
+[https://github.com/taedonn](https://github.com/taedonn)
 
 이력서 : 
 [https://taedonn.github.io/resume](https://taedonn.github.io/resume)
