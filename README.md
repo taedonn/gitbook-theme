@@ -5,8 +5,9 @@
 
 &nbsp;
 
-### @taedonn
-##### #프론트엔드 #개발자 #ISTJ #서울 #게이머
+### GitHub @ taedonn
+
+##### #프론트엔드 #개발자 #ISTJ #서울 #토론토 #OCADU
 
 깃허브 : 
 [https://github.com/taedonn](https://github.com/taedonn)
