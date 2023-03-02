@@ -10,7 +10,7 @@
 
 포트폴리오 : [https://taedonn.github.io/portfolio](https://taedonn.github.io/portfolio)
 
-![프로필 이미지](./images/profile.gif)<br>
+![프로필 이미지](./images/profile_crop.gif)<br>
 (출처 : @mfrezz)
 
 &nbsp;
