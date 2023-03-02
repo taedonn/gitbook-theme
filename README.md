@@ -8,7 +8,7 @@
 
 이력서 : [https://taedonn.github.io/resume](https://taedonn.github.io/resume)
 
-포트폴리오 : [https://taedonn.github.io/vision](https://taedonn.github.io/portfolio)
+포트폴리오 : [https://taedonn.github.io/portfolio](https://taedonn.github.io/portfolio)
 
 ![프로필 이미지](./images/profile.gif)<br>
 (출처 : @mfrezz)
