@@ -1,6 +1,6 @@
 # Summary
 
-- [기록하는 개발자](/README.md)
+- [태돈](/README.md)
 - [리액트 스터디](/react_study/README.md)
   - [1. 리액트는 왜 만들어졌을까?](/react_study/1-react-start.md)
   - [2. JSX 알아보기](/react_study/2-jsx.md)
