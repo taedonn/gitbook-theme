@@ -8,7 +8,7 @@ Live Demo : https://taedonn.github.io/gitbook-theme
 
 ### About This Template
 
-[GitHub 레포지토리 바로가기](https://www.gitbook.com/explore)
+[GitHub 레포지토리 바로가기](https://github.com/taedonn/gitbook-theme)
 
 이 템플릿은 Gitbook에서 만든 대표적인 블로그 템플릿 중 하나인 GitBook Theme을 커스터마이징한 템플릿입니다.
 
