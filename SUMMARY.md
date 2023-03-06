@@ -1,5 +1,5 @@
 # Summary
 
-- [README](/README.md)
+- [GitBook Theme](/README.md)
 - [Getting Started](/getting-started/README.md)
-  - [GitBook 설치하기](/getting-started/install_gitbook.md)
+  - [Install GitBook](/getting-started/install-gitbook.md)

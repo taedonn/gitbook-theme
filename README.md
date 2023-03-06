@@ -1,5 +1,7 @@
 # Gitbook Theme
 
-https://taedonn.github.io/gitbook-theme
+Live Demo : https://taedonn.github.io/gitbook-theme
 
-깃북 테마에 약간의 커스터마이징을 한 템플릿입니다.
+[![Node Version](https://img.shields.io/badge/featured%20on-Node%20%4016.13.2-%2368a063)](#) [![NPM Version](https://img.shields.io/badge/featured%20on-NPM%20%408.1.2-%23cc3534)](#) [![Gitbook Version](https://img.shields.io/badge/featured%20on-gitbook--cli%20%402.1.2-%23333333)](#)
+
+&nbsp;
