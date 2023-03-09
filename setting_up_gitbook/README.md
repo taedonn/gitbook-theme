@@ -40,6 +40,8 @@ root > node_modules > gitbook-plugin-comment > index.js 파일을 열고 첫줄�
 
 &nbsp;
 
+### GitHub Pages에 배포하기
+
 ![Change Settings 4](../images/github_6.jpg)
 
 url 변경이 모두 완료되면, 커멘드를 열고 publish_gitbook.sh를 입력합니다. publish_gitbook.sh는 내 레포지토리에 gh-pages 브랜치를 만들고 _book 폴더에 빌드되어있는 파일을 gh-pages 브랜치에 푸시합니다.
@@ -49,7 +51,7 @@ url 변경이 모두 완료되면, 커멘드를 열고 publish_gitbook.sh를 입
 
 ![Change Settings 5](../images/github_7.jpg)
 
-이제 github으로 돌아와 내 레포지토리에 Settings > Pages > Branch를 gh-pages로 변경합니다. 5분정도 페이지 빌드가 완료될때까지 기다린 다음, 위에 Visit Site 버튼을 눌러 사이트에 접속하면 깃북 테마가 적용된 블로그를 볼 수 있습니다.
+이제 github으로 돌아와 내 레포지토리에 Settings > Pages > Branch를 gh-pages로 변경합니다. 5분정도 페이지 빌드가 완료될때까지 기다린 다음, 위에 Visit site 버튼을 눌러 사이트에 접속하면 깃북 테마가 적용된 블로그를 볼 수 있습니다.
 > 5분을 기다려도 깃북 테마가 적용이 안될 경우, Ctrl(맥북은 cmd) + Shift + R을 눌러 강력 새로고침을 해보자.
 
 &nbsp;
