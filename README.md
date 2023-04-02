@@ -1,6 +1,6 @@
 # GitBook Theme
 
-Live Demo : https://taedonn.github.io/gitbook-theme
+Live Demo : https://gitbook.taedonn.com
 
 [![Node Version](https://img.shields.io/badge/featured%20on-Node%20%4016.13.2-%2368a063)](#) [![NPM Version](https://img.shields.io/badge/featured%20on-NPM%20%408.1.2-%23cc3534)](#) [![Gitbook Version](https://img.shields.io/badge/featured%20on-gitbook--cli%20%402.1.2-%23333333)](#)
 
@@ -8,7 +8,7 @@ Live Demo : https://taedonn.github.io/gitbook-theme
 
 ### About This Template
 
-[GitHub 레포지토리 바로가기](https://github.com/taedonn/gitbook-theme)
+[GitHub 레포지토리 바로가기](https://gitbook.taedonn.com)
 
 이 템플릿은 Gitbook에서 만든 대표적인 블로그 템플릿 중 하나인 GitBook Theme을 커스터마이징한 템플릿입니다.
 
