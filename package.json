@@ -11,10 +11,12 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d _book",
     "start": "gitbook serve"
-},
+  },
   "author": "taedonn <taedonn@outlook.com>",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^5.0.0",
+    "gitbook-cli": "^2.1.2",
     "gitbook-plugin-edit-link": "^2.0.2"
   }
 }
