@@ -7,7 +7,7 @@
     "url": "https://gitbook.taedonn.com"
   },
   "scripts": {
-    "build": "gitbook build",
+    "build": "gitbook install && gitbook build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d _book",
     "start": "gitbook serve"
