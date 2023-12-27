@@ -7,7 +7,7 @@
     "url": "https://gitbook.taedonn.com"
   },
   "scripts": {
-    "build": "gitbook install && gitbook build",
+    "build": "npm install -g graceful-fs@latest --save &&  gitbook install && gitbook build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d _book",
     "start": "gitbook serve"
