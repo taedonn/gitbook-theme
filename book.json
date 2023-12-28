@@ -1,14 +1,10 @@
 {
-  "plugins": [
-    "collapsible-chapters",
-    "comment",
-    "hide-published-with",
-    "github"
-  ],
-  "pluginsConfig": {
-    "collapsible-chapters": {},
-    "github": {
-      "url": "https://github.com/taedonn/gitbook-theme"
-    }
-  }
+	"plugins": [
+		"collapsible-chapters",
+		"comment",
+		"hide-published-with"
+	],
+	"pluginsConfig": {
+		"collapsible-chapters": {}
+	}
 }

@@ -1,22 +1,17 @@
 {
-  "name": "docs",
-  "version": "1.0.0",
+  "name": "gitbook-theme",
+  "version": "1.2.9",
   "description": "",
-  "repository": {
-    "type": "git",
-    "url": "https://gitbook.taedonn.com"
-  },
+  "homepage": "https://taedonn.github.io/gitbook-theme",
+  "author": "taedonn <taedonn@taedonn.com>",
+  "license": "MIT",
   "scripts": {
-    "build": "gitbook install && gitbook build",
+    "build": "gitbook build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d _book",
     "start": "gitbook serve"
   },
-  "author": "taedonn <taedonn@outlook.com>",
-  "license": "MIT",
   "dependencies": {
-    "gh-pages": "^5.0.0",
-    "gitbook-cli": "^2.1.2",
-    "gitbook-plugin-edit-link": "^2.0.2"
+    "gh-pages": "^5.0.0"
   }
 }

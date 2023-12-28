@@ -1,10 +1,8 @@
 ## GitBook 세팅하기
 
-깃북 테마를 적용하기 위해, 먼저 아래 GitHub 레포지토리로 들어간다.
+먼저 아래 GitHub 레포지토리로 들어갑니다.
 
 [GitHub 레포지토리 바로가기](https://github.com/taedonn/gitbook-theme)
-
-&nbsp;
 
 ![Github Fork Repository](../images/github_1.jpg)
 
@@ -12,42 +10,118 @@
 
 &nbsp;
 
-![Git Clone Repository](../images/github_2.jpg)
+#### 로컬 디렉토리에 복사
 
-내 레포지토리에 Fork가 완료되면, Git을 통해 레포지토리를 Clone합니다.
+fork가 완료되면, git을 통해 fork한 레포지토리를 로컬 디렉토리에 복사합니다.
+
+```bash
+git clone https://github.com/{내 아이디}/{내 저장소 이름}.git
+
+// 예시
+git clone https://github.com/taedonn/gitbook-theme.git
+```
+
+&nbsp;
+
+#### Git을 사용해본 적이 없다면?
+
+먼저 git을 설치해 줍니다.
+
 > Git 설치하기<br>
 [Windows](https://gitforwindows.org/) · 
 [MacOS](https://sourceforge.net/projects/git-osx-installer/files/git-2.23.0-intel-universal-mavericks.dmg/download?use_mirror=autoselect)
 
 &nbsp;
 
-![Change Settings 1](../images/github_3.jpg)
+설치 후 터미널을 열고 초기 설정을 해줍니다.
 
-클론이 완료되면, 클론된 폴더를 VSCODE를 통해 열고, 설정값을 변경해줍니다. 우선 package.json의 url을 본인 url에 맞게 변경합니다. url 형식은 "https:/github.com/깃헙아이디/레포지토리명" 입니다.
+##### 유저 이름 입력
+
+```bash
+git config --global user.name "내 깃허브 이름"
+```
+
+##### 유저 이메일 입력
+
+```bash
+git config --global user.email "내 깃허브 이메일"
+```
 
 &nbsp;
 
-![Change Settings 2](../images/github_4.jpg)
+모두 입력하면 폴더를 복사할 위치를 정합니다.
 
-package.json과 마찬가지로 book.json의 url도 변경해줍니다.
+##### 폴더 이동
+
+```bash
+# my-folder 폴더로 이동 (현재 위치에 my-folder 폴더가 없으면 이동 X)
+cd my-folder
+
+# 뒤로가기
+cd ..
+```
 
 &nbsp;
+
+#### GitHub desktop 앱으로 로컬 디렉토리에 복사
+
+![GitHub desktop Clone Repository](../images/github_2.jpg)
+
+Git 사용이 불편하다면 GitHub desktop app을 통해서도 쉽게 레포 복사가 가능합니다. 앱 설치 후 내 깃허브 아이디로 로그인하면 앱을 통해 레포를 로컬에 복사하거나 수정 사항을 바로 원격 저장소에 푸시할 수 있습니다.
+
+> GitHub Desktop 설치하기<br/>
+[설치 링크](https://desktop.github.com/)
+
+&nbsp;
+
+#### Gitbook 초기 설정
+
+![Change Settings 1](../images/github_3.png)
+
+클론이 완료되면, 클론된 폴더를 VSCODE를 통해 열고, package.json의 name, version, homepage, author 등을 본인 상황에 맞게 변경해 줍니다.
+
+&nbsp;
+
+#### (선택) 댓글 설정
 
 ![Change Settings 3](../images/github_5.jpg)
 
-root > node_modules > gitbook-plugin-comment > index.js 파일을 열고 첫줄의 repository를 본인 url에 맞게 변경합니다.
-> gitbook install 커멘드를 사용해 gitbook 패키지를 설치하면 해당 파일이 초기화되는 경우가 있습니다. 이런 경우를 대비해 루트 폴더에 gitbook-plugin-comment 폴더를 하나 생성해 놓았으니, 안에 index.js 파일을 그대로 복붙해서 사용하면 됩니다.
+댓글 기능을 구현하기 위해 gitbook-plugin-comment > index.js 파일을 열고 첫줄의 repository를 본인의 저장소 이름으로 변경한 후 코드 전체를 복사합니다. 그런 다음 node_modules > gitbook-plugin-comment > index.js 파일로 이동해 기존 코드를 복사한 코드로 덮어 씌웁니다.
+> gitbook install 커멘드를 사용하면 node_modules > gitbook-plugin-comment > index.js 파일이 초기화 됩니다. 이런 경우를 대비해 루트 폴더에 gitbook-plugin-comment 폴더를 하나 생성해 놓았으니, 안에 index.js 파일을 그대로 복붙해서 사용하면 됩니다.
 
 &nbsp;
 
-### GitHub Pages에 배포하기
+#### GitHub Pages에 배포하기
 
-![Change Settings 4](../images/github_6.jpg)
+설정을 완료하면, 터미널에 아래 커멘드를 입력합니다.
 
-url 변경이 모두 완료되면, 커멘드를 열고 publish_gitbook.sh를 입력합니다. publish_gitbook.sh는 내 레포지토리에 gh-pages 브랜치를 만들고 _book 폴더에 빌드되어있는 파일을 gh-pages 브랜치에 푸시합니다.
-> 실행 오류가 나면, github에 들어가 gh-pages 브랜치를 삭제 후 publish_gitbook.sh를 재실행하면 됩니다.
+```js
+npm run deploy
+```
+
+이 커멘드를 입력하면 내 로컬 디렉토리에 _book 폴더가 생성되고 gh-pages 브랜치에 푸시됩니다.
+> 깃허브 페이지로 배포하는 게 아니고 외부로 배포하는 거라면, _book 폴더를 루트 폴더로 설정한 후 배포하면 됩니다.
 
 &nbsp;
+
+#### main 브랜치에 배포하기
+
+Github desktop 앱을 사용중이라면, 수정 사항이 앱에 뜨기 때문에 그대로 커밋한 후 푸시하면 됩니다. git을 사용중이라면, 아래 커멘드를 순서대로 입력하면 됩니다.
+
+```bash
+# 수정사항 스테이징
+git add .
+
+# 수정사항 커밋
+git commit -m "커밋 메세지(아무거나 입력 가능)"
+
+# main 브랜치에 푸시
+git push origin main
+```
+
+&nbsp;
+
+#### 깃허브 페이지 배포 브랜치 변경
 
 ![Change Settings 5](../images/github_7.jpg)
 
@@ -55,3 +129,4 @@ url 변경이 모두 완료되면, 커멘드를 열고 publish_gitbook.sh를 입
 > 5분을 기다려도 깃북 테마가 적용이 안될 경우, Ctrl(맥북은 cmd) + Shift + R을 눌러 강력 새로고침을 해보자.
 
 &nbsp;
+
