@@ -12,7 +12,7 @@
 
 ![gitbook serve](../images/github_8.jpg)
 
-위에서 나온대로 설치가 완료되면, 커멘드에 gitbook serve를 칩니다.
+위에서 나온대로 설치가 완료되면, 터미널에 gitbook serve 또는 npm start를 입력합니다.
 
 &nbsp;
 
@@ -25,14 +25,17 @@
 ![web browser](../images/github_10.jpg)
 
 위에 http://localhost:4000를 복사해서 크롬같은 브라우저의 주소창에 붙혀넣으면, 로컬에서 블로그에 접속할 수 있습니다.
-> 기본적으로 수정하고나서 Ctrl(Cmd) + S로 저장하면 자동으로 브라우저 화면도 새로고침 되지만, 브라우저 화면이 새로고침이 안될 경우, Ctrl(Cmd) + C로 커멘드 실행을 종료하고, 다시 gitbook serve를 하면 수정사항이 반영됩니다.
+> 기본적으로 수정하고나서 Ctrl(Cmd) + S로 저장하면 자동으로 미리보기도 새로고침 되지만, 미리보기가 새로고침이 안될 경우, Ctrl(Cmd) + C로 커멘드 실행을 종료하고, 다시 gitbook serve를 하면 수정사항이 반영됩니다.
+
+> node 16.X 이후 버전에서는 미리보기가 새로고침 되지 않습니다. 미리보기가 새로고침 되길 원한다면 node를 16.X 버전으로 변경 후 이용해 주세요.
 
 &nbsp;
 
 ### 완성된 글 배포하기
 
-이렇게 미리보기를 통해 작성한 글을 확인한 후, 배포하기를 원한다면 커멘드에 publish_gitbook.sh를 입력해 배포하면 됩니다.
-
-[GitHub Pages에 배포하는 법](../setting_up_gitbook/README.md/#github-pages에-배포하기)
+이렇게 미리보기를 통해 작성한 글을 확인한 후, 배포하기를 원한다면 터미널에 아래 코드를 입력합니다.
+```bash
+npm run deploy
+```
 
 &nbsp;
