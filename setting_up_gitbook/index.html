@@ -244,7 +244,20 @@
 <blockquote>
 <p>5&#xBD84;&#xC744; &#xAE30;&#xB2E4;&#xB824;&#xB3C4; &#xAE43;&#xBD81; &#xD14C;&#xB9C8;&#xAC00; &#xC801;&#xC6A9;&#xC774; &#xC548;&#xB420; &#xACBD;&#xC6B0;, Ctrl(&#xB9E5;&#xBD81;&#xC740; cmd) + Shift + R&#xC744; &#xB20C;&#xB7EC; &#xAC15;&#xB825; &#xC0C8;&#xB85C;&#xACE0;&#xCE68;&#xC744; &#xD574;&#xBCF4;&#xC790;.</p>
 </blockquote>
-<p>&#xA0;</p>
+<p>&#xA0;<script>
+ function attachComments() {
+ const el = document.querySelector('.markdown-section');
+ if (!el) return;
+ const script = document.createElement('script');
+ script.src = 'https://utteranc.es/client.js';
+ script.setAttribute('repo', 'taedonn/gitbook-theme');
+ script.setAttribute('issue-term', 'title');
+ script.setAttribute('crossorigin', 'anonymous');
+ script.setAttribute('label', 'comments');
+ el.appendChild(script);
+ }
+ setTimeout(attachComments, 100);
+ </script></p>
 
                                 
                                 </section>
@@ -288,7 +301,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"GitBook 세팅하기","level":"1.2","depth":1,"next":{"title":"로컬에서 접속하기","level":"1.2.1","depth":2,"path":"setting_up_gitbook/local.md","ref":"setting_up_gitbook/local.md","articles":[]},"previous":{"title":"GitBook Theme","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"setting_up_gitbook/README.md","mtime":"2023-12-27T23:50:54.361Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-12-27T23:58:31.421Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"GitBook 세팅하기","level":"1.2","depth":1,"next":{"title":"로컬에서 접속하기","level":"1.2.1","depth":2,"path":"setting_up_gitbook/local.md","ref":"setting_up_gitbook/local.md","articles":[]},"previous":{"title":"GitBook Theme","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["comment"],"pluginsConfig":{"comment":{"highlightCommented":true},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"setting_up_gitbook/README.md","mtime":"2023-12-27T23:50:54.361Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-12-28T01:32:47.556Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
